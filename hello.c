@@ -7,7 +7,7 @@ int main(void)
     printf("Nice! My favorite animal is a snow leopard, but I think that a(n) %s is cool too.\n", animal);
     string song_artist = get_string("Who is your favorite music artist?\n");
     string song_title = get_string("What is your favorite song by them?\n");
-    printf("I actually really hate %s's song called '%s', but I LOVE the song 'Lily' by Alan Walker.\n", song_artist, song_title);
+    printf("I actually am not a huge fan of %s's song called '%s', but I LOVE the song 'Lily' by Alan Walker.\n", song_artist, song_title);
     string number = get_string("What's your favorite number?\n");
     printf("My favorite number is %s as well!\n", number);
     printf("That's it for now! Thanks for answering!\n");
