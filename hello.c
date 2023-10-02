@@ -10,5 +10,8 @@ int main(void)
     printf("I actually really hate %s's song called '%s', but I LOVE the song 'Lily' by Alan Walker.\n", song_artist, song_title);
     string number = get_string("What's your favorite number?\n");
     printf("My favorite number is %s as well!\n", number);
-    printf("That's it for now! Thanks for answering!\n\n\n ***Data collected successfully.*** \n\n\n Selling it to the North Korean government... Processing... Complete!"/n);
+    printf("That's it for now! Thanks for answering!\n");
+    printf("***Data collected successfully.***\n");
+    printf("Selling it to the North Korean government...\n");
+    printf("Processing... Complete!\n");
     }
