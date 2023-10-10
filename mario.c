@@ -3,12 +3,19 @@
 
 int main(void)
 {
-    for(int row = 0, row < 3, row++)
+    int number;
+    do
     {
-        for(int column = 0, column < 3, column++)
+        number = get_int("How many rows of hashtags?\n");
+    }
+    while(number < 1);
+
+    for(int row = 0; row < 3; row ++)
+    {
+        for(int column = 0; column < 3; column++)
         {
-            printf("#");
+        printf("#");
         }
-        printf("\n")
+        printf("\n");
     }
 }
