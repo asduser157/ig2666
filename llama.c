@@ -8,6 +8,7 @@ safety_net(int n1, int n2, int ans1, int ans2, int num, int ans3, int final_ans)
     n1 = get_int("Population Start Size: ");
     if (n1 > 9)
     {
+        n2 = get_int("Population End Size: ");
         printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
         ans1 = n1 / 3;
         ans2 = n1 / 4;
@@ -25,5 +26,6 @@ safety_net(int n1, int n2, int ans1, int ans2, int num, int ans3, int final_ans)
 int main(void)
 {
     safety_net(n1, n2, ans1, ans2, num, ans3, final_ans);
+    return 0;
 }
 
