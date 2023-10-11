@@ -4,9 +4,7 @@
 int main(void);
 
 
-
-void
-safety_net(int)
+int safety_net()
 {
     int n1 = get_int("Population Start Size: ");
     if (n1 > 9)
