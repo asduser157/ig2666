@@ -27,6 +27,13 @@ int safety_net(int n1, int n2, int ans1, int ans2, int num, int ans3, int final_
         safety_net(n1, n2, ans1, ans2, num, ans3, final_ans);
     }
 
+return n1;
+return n2;
+return ans1;
+return ans2;
+return num;
+return ans3;
+return final_ans;
 }
 
 safety_net(n1, n2, ans1, ans2, num, ans3, final_ans);
