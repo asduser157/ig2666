@@ -1,9 +1,19 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-    printf("Please enter the beginning population size: ");
+    int n1;
+    do{
+        printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9: ");
+
+        if (scanf ("%d", &n1) != 1) {
+
+        printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9: ");
+        
+        }
+
+    }
     printf("Please enter the ending population size: ");
     printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
     int ans1 = n1 / 3;
