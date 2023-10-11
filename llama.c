@@ -4,12 +4,7 @@
 int main(void);
 
 
-void
-ensure1()
-{
-    printf("Once upon a time, there were %i llamas in Llamaland.\n\n", n1);
-    int n2 = get_int("Population End Size: ");
-}
+
 void
 safety_net()
 {
@@ -22,6 +17,12 @@ safety_net()
     {
         safety_net();
     }
+}
+void
+ensure1()
+{
+    printf("Once upon a time, there were %i llamas in Llamaland.\n\n", n1);
+    int n2 = get_int("Population End Size: ");
 }
 
 void
