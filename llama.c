@@ -9,8 +9,6 @@ int safety_net(int n1, int n2, int ans1, int ans2, int num, int ans3, int final_
     n1 = get_int("Population Start Size: ");
     if (n1 > 9)
     {
-        printf("Once upon a time, there were %i llamas in Llamaland.\n\n", n1);
-        n2 = get_int("Population End Size: ");
         if (n2 > n1)
         {
             printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
