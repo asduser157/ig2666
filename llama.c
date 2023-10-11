@@ -11,7 +11,9 @@ int main()
             printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 1 million: ");
             while (getchar() != '\n');
         }
-        else if (n1 < 9 || n1 > 1000000)
+        else if (n1 < 9 || n1 > 1000000){
+            printf("Input is out of range. Please enter a number between 9 and 1000000.\n");
+        }
 
     }
     printf("Please enter the ending population size: ");
