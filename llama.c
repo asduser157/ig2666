@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    int n1 = get_int("Population Start Size: ");
     do {
-        int n2 = get_int("Population End Size: ");
+        int n1 = get_int("Population Start Size: ");
         do {
+            int n2 = get_int("Population End Size: ");
             printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
             int ans1 = n1 / 3;
             int ans2 = n1 / 4;
