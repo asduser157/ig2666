@@ -4,8 +4,7 @@
 int main(void)
 {
     int n1 = get_int("Population Start Size: ");
-    while (n1 > 9)
-    {
+    do {
         int n2 = get_int("Population End Size: ");
         while (n2 > n1){
             printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
@@ -17,5 +16,5 @@ int main(void)
             printf("That population growth took %i years.\n", final_ans);
         }
     }
-}
+    }
 
