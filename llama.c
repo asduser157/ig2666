@@ -24,9 +24,9 @@ int safety_net(int n1, int n2, int ans1, int ans2, int num, int ans3, int final_
     }
     else
     {
-        safety_net();
+        safety_net(n1, n2, ans1, ans2, num, ans3, final_ans);
     }
 
 }
 
-safety_net();
+safety_net(n1, n2, ans1, ans2, num, ans3, final_ans);
