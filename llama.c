@@ -8,18 +8,18 @@ int main()
         printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 1 million: ");
 
         if (scanf ("%d", &n1) != 1) {
-            printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 1 million: ");
+            printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 10,000: ");
             while (getchar() != '\n');
         }
-        else if (n1 < 9 || n1 > 1000000){
-            printf("Input is out of range. Please enter a number between 9 and 1000000.\n");
-        } while (number < min || number > max);
-
-    printf("You entered a valid integer: %d\n", number);
-
-    return 0;
+        else if (n1 < 9 || n1 > 10000)
+        {
+            printf("Input is out of range. Please enter a number between 9 and 1000000: ");
+        } while (n1 < 9 || n1 > 10000);
+    }
+    do  {
+        printf("Please enter the ending population size of llamas, ensuring your input is a number greater than the previous number you entered and less than or equal to 10,000:");
+        }  return 0;
       }
-    printf("Please enter the ending population size: ");
     printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
     int ans1 = n1 / 3;
     int ans2 = n1 / 4;
@@ -27,7 +27,7 @@ int main()
     int ans3 = ans1 - ans2;
     int final_ans = num / ans3;
     printf("That population growth took %i years.\n", final_ans);
-}
+
 #include <stdio.h>
 
 int main() {
