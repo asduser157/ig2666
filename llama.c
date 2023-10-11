@@ -5,13 +5,13 @@ int main()
 {
     int n1;
     do{
-        printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9: ");
+        printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 1 million: ");
 
         if (scanf ("%d", &n1) != 1) {
-            printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9: ");
+            printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 1 million: ");
             while (getchar() != '\n');
         }
-        else if
+        else if (n1 < 9 || n1 > 1000000)
 
     }
     printf("Please enter the ending population size: ");
