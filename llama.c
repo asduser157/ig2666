@@ -6,7 +6,7 @@
 int main(void)
 {
     void
-    ensure()
+    ensure() {
     int n1 = get_int("Population Start Size: ");
     if (n1 > 9)
     {
