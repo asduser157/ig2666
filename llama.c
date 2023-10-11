@@ -3,8 +3,7 @@
 
 int main()
 {
-    int n1;
-    int n2;
+    int n1, n2;
     do {
         printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 10,000: ");
 
