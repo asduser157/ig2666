@@ -7,9 +7,7 @@ int main(void)
 {
     void
     ensure() {
-    int n1 = get_int("Population Start Size: ");
-    if (n1 > 9)
-    {
+
         printf("Once upon a time, there were %i llamas in Llamaland.\n\n", n1);
         int n2 = get_int("Population End Size: ");
         do
@@ -24,5 +22,6 @@ int main(void)
         }
         while (n2 < n1);
     }
-}
+    }
+
 
