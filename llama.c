@@ -8,10 +8,10 @@ int main()
         printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9: ");
 
         if (scanf ("%d", &n1) != 1) {
-
-        printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9: ");
-        
+            printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9: ");
+            while (getchar() != '\n');
         }
+        else if
 
     }
     printf("Please enter the ending population size: ");
