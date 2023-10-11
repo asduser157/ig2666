@@ -13,10 +13,11 @@ int main(void)
         if (n2 > n1)
         {
             printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
-            ans1 == n/6;
-            ans2 == n/11;
-            ans3 == ans1 - ans2;
-            printf("That population growth took %i years.", ans3)
+            int ans1 = n1/6;
+            int ans2 = n1/11;
+            int ans3 = ans1 - ans2;
+            int final_ans = ans3*
+            printf("That population growth took %i years.", final_ans);
             }
     }
 
