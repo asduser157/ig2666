@@ -18,7 +18,7 @@ int main(void)
             int num = n2 - n1;
             int ans3 = ans1 - ans2;
             int final_ans = ans3 * num;
-            printf("That population growth took %i years.", final_ans);
+            printf("That population growth took %i years.\n", final_ans);
             }
     }
 
