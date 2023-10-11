@@ -6,7 +6,7 @@ int main(void);
 
 
 void
-safety_net()
+safety_net(int)
 {
     int n1 = get_int("Population Start Size: ");
     if (n1 > 9)
@@ -29,12 +29,6 @@ safety_net()
         safety_net();
     }
 
-}
-
-    else
-    {
-        ensure1();
-    }
 }
 
 safety_net();
