@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    printf("Population Start Size: ");
-    int n2 = get_int("Population End Size: ");
+    printf("Please enter the beginning population size: ");
+    printf("Please enter the ending population size: ");
     printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
     int ans1 = n1 / 3;
     int ans2 = n1 / 4;
