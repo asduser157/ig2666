@@ -1,6 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+
+
 int main(void)
 {
     int n1 = get_int("Population Start Size: ");
@@ -12,7 +14,7 @@ int main(void)
     if (n2 > n1)
     {
         printf("A while later, the population had grown to %ld llamas in Llamaland.\n\n", n2);
-        int n3 = get_int("How many years did it take for the llama popluation to grow to %ld?", n2);
+        printf("That population growth took years.")
 
     }
 
