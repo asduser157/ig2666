@@ -13,7 +13,9 @@ safety_net()
         ensure1();
     }
     else
-    {}
+    {
+        safety_net();
+    }
 }
 
 void
