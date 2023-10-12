@@ -32,9 +32,9 @@ int main()
         else if (n2 < n1 || n2 > 10000)
         {
             printf("Input is out of range. Please enter a number greater than the previous number you entered and less than 10,000: ");
-        } while (n1 < 9 || n1 > 10000);
+        }
     }
-    while (n2 > n1);
+    while (n2 < n1);
     return 0;
 
     printf("A while later, the population had grown to %i llamas in Llamaland.\n\n", n2);
