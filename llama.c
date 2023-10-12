@@ -41,8 +41,9 @@ int main()
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
         int born = n1 / 3;
         int dead = n1 / 4;
-        int current = born - dead;
+        int n2 = born - dead;
         
+
         int final = ;
         printf("\nThat population growth took %i years!\n", final);
         }
