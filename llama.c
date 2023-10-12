@@ -41,7 +41,7 @@ int main()
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
         double ans =  ((n1 / 3) - (n1 / 4));
         double change = (n2 - n1);
-        int final = change;
+        int final = change / ans;
         printf("\nThat population growth took %i years!\n", final);
         }
     }
