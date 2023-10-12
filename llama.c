@@ -18,8 +18,11 @@ int main()
         {
             printf("\nInput is out of range. ");
         }
-        printf("\nOnce upon a time, there were %d llamas in Llamaland.", n1);
+        else if (n1 > 9 && n1 < 10000)
+        {
+            printf("\nOnce upon a time, there were %d llamas in Llamaland.\n", n1);
         }
+    }
     while (n1 < 9 || n1 > 10000);
 
     do  {
@@ -27,20 +30,22 @@ int main()
 
         if (scanf ("%d", &n2) != 1)
         {
-            printf("Please enter the ending population size of llamas, ensuring your input is a number greater than %d and less than 10,000: ", n1);
+            printf("\n Please enter the ending population size of llamas, ensuring your input is a number greater than %d and less than 10,000: ", n1);
             while (getchar() != '\n');
         }
         else if (n2 < n1 || n2 > 10000)
         {
-            printf("\nInput is out of range. ");
+            printf("Input is out of range.\n");
         }
+        else if (n2 > n1 && n2 < 10001){
         printf("\nA while later, the population had grown to %i llamas in Llamaland.\n", n2);
         int ans1 = n1 / 3;
         int ans2 = n1 / 4;
         int num = n2 - n1;
         int ans3 = ans1 - ans2;
         int final_ans = num / ans3;
-        printf("\nThat population growth took %i years!", final_ans);
+        printf("\nThat population growth took %i year(s)!\n", final_ans);
+        }
     }
     while (n2 < n1);
     return 0;
