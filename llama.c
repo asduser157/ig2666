@@ -17,6 +17,7 @@ int main()
             printf("Input is out of range. Please enter a number between 9 and 10,000: ");
         } while (n1 < 9 || n1 > 10000);
         }
+    while
 
     do  {
         printf("Please enter the ending population size of llamas, ensuring your input is a number greater than the previous number you entered and less than or equal to 10,000: ");
