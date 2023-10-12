@@ -30,7 +30,7 @@ int main()
 
         if (scanf ("%d", &n2) != 1)
         {
-            printf("\n Please enter the ending population size of llamas, ensuring your input is a number greater than %d and less than 10,000: ", n1);
+            printf("\nPlease enter the ending population size of llamas, ensuring your input is a number greater than %d and less than 10,000: ", n1);
             while (getchar() != '\n');
         }
         else if (n2 < n1 || n2 > 10000)
