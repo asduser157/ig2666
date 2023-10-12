@@ -44,7 +44,7 @@ int main()
         int num = n2 - n1;
         int ans3 = ans1 - ans2;
         int final_ans = num / ans3;
-        printf("\nThat population growth took %i year(s)!\n", final_ans);
+        printf("\nThat population growth took %i years!\n", final_ans);
         }
     }
     while (n2 < n1);
