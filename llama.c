@@ -3,7 +3,8 @@
 
 int main()
 {
-    int n1, n2;
+    int n1, n2, year;
+    year = 0;
     n1 = 2;
     n2 = 3;
     do {
