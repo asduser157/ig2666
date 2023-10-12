@@ -14,12 +14,12 @@ int main()
             printf("Please enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 10,000: ");
             while (getchar() != '\n');
         }
-        else if (n1 < 9 && n1 > 10000)
+        else if (n1 > 9 && n1 < 10000)
         {
             printf("Input is out of range. Please enter a number between 9 and 10,000: ");
         }
         }
-    while (n1 > 9 && n1 < 10000);
+    while (n1 < 9 || n1 > 10000);
 
     do  {
         printf("Please enter the ending population size of llamas, ensuring your input is a number greater than the previous number you entered and less than or equal to 10,000: ");
