@@ -39,9 +39,9 @@ int main()
         }
         else if (n2 > n1 && n2 < 10001){
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
-        double ans =  ((n1 / 3) - (n1 / 4));
+        double ans =  n2 + ((n2 / 3) - (n2 / 4));
         double change = (n2 - n1);
-        int final = change / ans;
+        int final = ;
         printf("\nThat population growth took %i years!\n", final);
         }
     }
