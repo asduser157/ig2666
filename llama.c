@@ -16,13 +16,13 @@ int main()
         }
         else if (n1 < 9 || n1 > 10000)
         {
-            printf("Input is out of range. Please enter a number between 9 and 10,000: ");
+            printf("Input is out of range. ");
         }
         }
     while (n1 < 9 || n1 > 10000);
 
     do  {
-        printf("Please enter the ending population size of llamas, ensuring your input is a number greater than the previous number you entered and less than or equal to 10,000: ");
+        printf("Please enter the ending population size of llamas, ensuring your input is a number greater than %d and less than or equal to 10,000: ", n1);
 
         if (scanf ("%d", &n2) != 1)
         {
@@ -31,7 +31,7 @@ int main()
         }
         else if (n2 < n1 || n2 > 10000)
         {
-            printf("Input is out of range. Please enter a number greater than the previous number you entered and less than 10,000: ");
+            printf("Input is out of range. ");
         }
     }
     while (n2 < n1);
