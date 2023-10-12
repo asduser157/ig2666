@@ -38,10 +38,11 @@ int main()
             printf("Input is out of range.\n");
         }
         else if (n2 > n1 && n2 < 10001){
-        printf("\nA while later, the population had grown to %i llamas in Llamaland.\n", n2);
-        int ans =  n1 + (n1 / 3) - (n1 / 4);
-        int final_ans =  (n2 - n1) / ans;
-        printf("\nThat population growth took %i years!\n", final_ans);
+        printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
+        double ans =  n1 + (n1 / 3) - (n1 / 4);
+        double getting_there = (n2 - n1);
+        int final = getting_there / n2;
+        printf("\nThat population growth took %i years!\n", final);
         }
     }
     while (n2 < n1);
