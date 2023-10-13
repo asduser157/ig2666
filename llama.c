@@ -7,7 +7,7 @@ int main()
     year = 0;
     n1 = 2;
     n2 = 3;
-    int change = 0;
+    double change = 0;
     do {
         printf("\nPlease enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 10,000: ");
 
@@ -44,7 +44,7 @@ int main()
         int born = n1 / 3;
         int dead = n1 / 4;
         change = born - dead;
-        printf("%d", change);
+        printf("%df", change);
         }
     }
     while (n2 < n1);
