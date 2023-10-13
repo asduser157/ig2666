@@ -43,8 +43,7 @@ int main()
         int born = n1 / 3;
         int dead = n1 / 4;
         n2 = born - dead;
-        year ++;
-        return year;
+        year = year + year;
     printf("\nThat population growth took %d years!\n", year);
         }
     }
