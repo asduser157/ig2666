@@ -44,7 +44,7 @@ int main()
         int born = n1 / 3;
         int dead = n1 / 4;
         change = born - dead;
-        printf("%", change);
+        printf("%d", change);
         }
     }
     while (n2 < n1);
