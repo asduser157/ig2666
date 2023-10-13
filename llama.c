@@ -48,7 +48,7 @@ int main()
         }
     }
     while (n2 < n1);
-    while (n1 < n2){
+    while (n2 > n1){
 
         n1 = n1 + change;
         year = year + 1;
