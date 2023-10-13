@@ -43,12 +43,13 @@ int main()
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
         int born = n1 / 3;
         int dead = n1 / 4;
-        change = born - dead;
+        change = n1 + born - dead;
+        printf("%d", change);
         }
     }
     while (n2 < n1);
     while (n1 < n2){
-    
+
         n1 = n1 + change;
         year = year + 1;
     }
