@@ -7,6 +7,7 @@ int main()
     year = 0;
     n1 = 2;
     n2 = 3;
+    int change = 0;
     do {
         printf("\nPlease enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 10,000: ");
 
@@ -42,12 +43,16 @@ int main()
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
         int born = n1 / 3;
         int dead = n1 / 4;
-        n2 = born - dead;
-        year = year + year;
-    printf("\nThat population growth took %d years!\n", year);
+        change = born - dead;
         }
     }
     while (n2 < n1);
+    do {
+        n1 + change;
+        year = year + 1;
+    }
+    while (n1 < n2);
+    printf("\nThat population growth took %d years!\n", year);
 
 
 }
