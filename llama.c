@@ -45,6 +45,8 @@ int main()
         int born = n1 / 3;
         int dead = n1 / 4;
         change = born - dead;
+        n3 = n2 - n1;
+        printf("%d\n", n3);
         printf("%d", change);
         }
     }
@@ -55,9 +57,7 @@ int main()
         n1 = n1 + change;
         year = year + 1;
     }
-    n3 = n2 - n1;
     printf("\nThat population growth took %d years!\n", year);
-    printf("%d", n3);
 
 
 }
