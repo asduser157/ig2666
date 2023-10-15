@@ -54,8 +54,8 @@ int main()
 
         n1 = n1 + change;
         year = year + 1;
-        n3 = n2 - n1;
     }
+    n3 = n2 - n1;
     printf("\nThat population growth took %d years!\n", year);
     printf("%d", n3);
 
