@@ -42,7 +42,7 @@ int main()
         }
         else if (n2 > n1 && n2 < 10001){
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
-        change = n1/3 - n1/4;
+        change = (n1*0.333333333) - (n1*0.25);
         n3 = n2 - n1;
         printf("%d\n", n1);
         printf("%d\n", n3);
@@ -52,7 +52,6 @@ int main()
     while (n2 < n1);
     while (n2 > n1)
     {
-
         n1 = n1 + change;
         year = year + 1;
     }
