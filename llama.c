@@ -49,7 +49,7 @@ int main()
         printf("%d", change);
         }
     }
-    while (n2 > n1);
+    while (n2 < n1);
     while (n2 > n1)
     {
         n1 = n1 + change;
