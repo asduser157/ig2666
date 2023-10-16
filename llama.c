@@ -30,17 +30,18 @@ int main()
 
     do  {
         printf("\nPlease enter the ending population size of llamas, ensuring your input is a number greater than %d and less than or equal to 10,000: ", n1);
-
-        if (scanf ("%d", &n2) != 1)
+    }
+    while (n2 < n1);
+    if (scanf ("%d", &n2) != 1)
         {
             printf("\nPlease enter the ending population size of llamas, ensuring your input is a number greater than %d and less than 10,000: ", n1);
             while (getchar() != '\n');
         }
-        else if (n2 < n1 || n2 > 10000)
+    else if (n2 < n1 || n2 > 10000)
         {
             printf("Input is out of range.\n");
         }
-        else if (n2 > n1 && n2 < 10001){
+    else if (n2 > n1 && n2 < 10001){
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
         change = (n1/3) - (n1/3);
         n3 = n2 - n1;
@@ -48,8 +49,6 @@ int main()
         printf("%d\n", n3);
         printf("%d", change);
         }
-    }
-    while (n2 < n1);
     while (n2 > n1)
     {
         n1 = n1 + change;
