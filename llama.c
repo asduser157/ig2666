@@ -7,7 +7,7 @@ int main()
     year = 0;
     n1 = 2;
     n2 = 3;
-    double change = 0.000;
+    float change = 0.000;
     int n3;
     do {
         printf("\nPlease enter the starting population size of llamas, ensuring your input is a number greater than 9 and less than 10,000: ");
@@ -42,7 +42,7 @@ int main()
         }
         else if (n2 > n1 && n2 < 10001){
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
-        float change = n1/3 - n1/4;
+        change = n1/3 - n1/4;
         n3 = n2 - n1;
         printf("%d\n", n3);
         printf("%f", change);
