@@ -50,12 +50,8 @@ int main()
         }
     }
     while (n2 < n1);
-    while (n2 > n1)
-    {
-        year = n3 - change;
-        year = year + 1;
-    }
-    printf("\nThat population growth took %d years!\n", year);
+year = n3 - change;
+printf("\nThat population growth took %d years!\n", year);
 
 
 }
