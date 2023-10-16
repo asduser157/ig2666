@@ -21,7 +21,7 @@ int main()
         {
             printf("\nInput is out of range. ");
         }
-        else if (n1 > 9 && n1 < 10000)
+        else if (n1 > 8 && n1 < 10000)
         {
             printf("\nOnce upon a time, there were %d llamas in Llamaland.\n", n1);
         }
@@ -44,6 +44,7 @@ int main()
         printf("\nA while later, the population had grown to %d llamas in Llamaland.\n", n2);
         change = n1/3 - n1/4;
         n3 = n2 - n1;
+        printf("%d\n", n1);
         printf("%d\n", n3);
         printf("%f", change);
         }
