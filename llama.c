@@ -27,11 +27,8 @@ int main()
         }
     }
     while (n1 < 9 || n1 > 10000);
-
     do  {
         printf("\nPlease enter the ending population size of llamas, ensuring your input is a number greater than %d and less than or equal to 10,000: ", n1);
-    }
-    while (n2 < n1);
     if (scanf ("%d", &n2) != 1)
         {
             printf("\nPlease enter the ending population size of llamas, ensuring your input is a number greater than %d and less than 10,000: ", n1);
@@ -53,6 +50,7 @@ int main()
     {
         n1 = n1 + change;
         year = year + 1;
+    }
     }
 printf("That population growth took %d years!\n", year);
 
