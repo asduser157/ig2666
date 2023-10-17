@@ -46,6 +46,8 @@ int main()
         printf("%d\n", n3);
         printf("%d", change);
         }
+    }
+    
     while (n2 > n1)
     {
         n1 = n1 + change;
