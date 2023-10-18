@@ -2,5 +2,6 @@
 
 int main(void)
 {
-    printf("Hello there, %\n");
+    
+    printf("Nice to meet you, %s\n", name);
 }
