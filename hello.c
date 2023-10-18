@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include <cs50.h>
 
 int main(void)
 {
-    word = ;
-    ;
+    string name = get_string("Hi there! What's );
     printf("Nice to meet you, %s\n", name);
 }
