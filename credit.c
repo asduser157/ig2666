@@ -9,6 +9,7 @@ int main(void)
     beginning_numbers = card_number % ();
     sprintf(card_string, "%d", card_number);
     int length = strlen(card_string);
+    
 
 
 
