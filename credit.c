@@ -10,6 +10,7 @@ int main(void)
     int length = strlen(card_string);
     long card_long = atol(card_string);
     int b = card_long % (length - 2);
+    printf(b);
     if (b == 51 || b == 52 || b == 53 || b == 54 || b == 55)
     {
         printf("DISCOVER/MASTERCARD");
