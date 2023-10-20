@@ -9,7 +9,8 @@ int main(void)
     beginning_numbers = card_number % ();
     sprintf(card_string, "%d", card_number);
     int length = strlen(card_string);
-    long card_step_2 =
+    long card_long = atol(card_string)
+    
 
 
 
