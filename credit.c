@@ -5,9 +5,10 @@ int main(void)
 {
     char card_string[17];
     long card_number = get_long("Please enter a credit card number to test its validity.");
+    beginning_numbers = 
     sprintf(card_string, "%d", card_number);
     int length1 = strlen(card_string);
-    if 
+
 
 
 
