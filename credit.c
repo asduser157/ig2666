@@ -22,6 +22,10 @@ int main(void)
     {
         printf("AMERICAN EXPRESS");
     }
+    else {
+        printf("***INVALID CREDIT CARD NUMBER***);
+    }
+}
 
 
 
