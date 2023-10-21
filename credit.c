@@ -11,11 +11,17 @@ int main(void)
     long card_long = atol(card_string);
     int b = card_long % ((length - 2) * 10);
     printf("%d", b);
+    int flag = 0;
     while (length > 2)
     {
         b = card_long % 10;
+        if (length < 3)
+        {
+            flag = 1;
+            break;
+        }
     }
-    else
+    if (flag = 1)
     {
         printf("%d", b);
     }
