@@ -5,44 +5,44 @@
 int main(void)
 {
     char card_string[17];
-    long card_number = get_long("Please enter a credit card number to test its validity.");
+    long card_number = get_long("Please enter a credit card number to test its validity.\n");
     sprintf(card_string, "%ld", card_number);
     int length = strlen(card_string);
     long card_long = atol(card_string);
-    int b = card_long % ((length - 2) * 10);
-    printf("%d", b);
-    int flag = 0;
-    while (length > 2)
+    int b = 0;
+    if (length == 16)
     {
-        b = card_long % 10;
-        if (length < 3)
-        {
-            flag = 1;
-            break;
-        }
+        b = card_long / 100000000000000;
     }
-    if (flag = 1)
+    else if (length == 15)
     {
-        printf("%d", b);
+        b = card_long / 10000000000000;
     }
-
-
+    else if (length == 13)
+    {
+        b = card_long / 100000000000;
+    }
+    printf("%d\n ", b);
     if (b == 51 || b == 52 || b == 53 || b == 54 || b == 55)
     {
-        printf("DISCOVER/MASTERCARD");
+        printf("DISCOVER/MASTERCARD\n");
     }
     else if (b == 40 || b == 41 || b == 42 || b == 43 || b == 44 || b == 45 || b == 46 || b == 47 || b == 48 || b == 49)
     {
-        printf("VISA");
+    printf("VISA\n");
     }
     else if ( b == 34 || b == 37)
     {
-        printf("AMERICAN EXPRESS");
+        printf("AMERICAN EXPRESS\n");
     }
-    else {
-        printf("***INVALID CREDIT CARD NUMBER***");
+    else
+    {
+        printf("***INVALID CREDIT CARD NUMBER***\n");
     }
 }
+
+
+
 
 
 
