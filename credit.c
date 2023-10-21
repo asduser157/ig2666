@@ -13,8 +13,14 @@ int main(void)
     printf("%d", b);
     while (length > 2)
     {
-        b = card_long $ ()
+        b = card_long % 10;
     }
+    else
+    {
+        printf("%d", b);
+    }
+
+
     if (b == 51 || b == 52 || b == 53 || b == 54 || b == 55)
     {
         printf("DISCOVER/MASTERCARD");
