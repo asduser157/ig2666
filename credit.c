@@ -22,14 +22,15 @@ int main(void)
     {
         b = card_long / 100000000000;
     }
-    printf("%d\n ", b);
     if (b == 51 || b == 52 || b == 53 || b == 54 || b == 55)
     {
         printf("DISCOVER/MASTERCARD\n");
+        
     }
     else if (b == 40 || b == 41 || b == 42 || b == 43 || b == 44 || b == 45 || b == 46 || b == 47 || b == 48 || b == 49)
     {
     printf("VISA\n");
+
     }
     else if ( b == 34 || b == 37)
     {
