@@ -21,8 +21,31 @@ int main(void)
         int f1 = card_long / 100000000000 % 10;
         int g1 = card_long / 10000000000000 % 10;
         int h1 = card_long / 1000000000000000 % 10;
-        
-        printf("%d, %d, %d, %d, %d, %d, %d, %d", a1, b1, c1, d1, e1, f1, g1, h1);
+        mult_a1 = a1 * 2;
+        mult_b1 = b1 * 2;
+        mult_c1 = b1 * 2;
+        mult_d1 = b1 * 2;
+        mult_e1 = b1 * 2;
+        mult_f1 = b1 * 2;
+        mult_g1 = b1 * 2;
+        mult_h1 = b1 * 2;
+        dig1_a1 = mult_a1 / 10;
+        dig2_a1 = mult_a1 % 10;
+        dig1_b1 = mult_b1 / 10;
+        dig2_b1 = mult_b1 % 10;
+        dig1_c1 = mult_c1 / 10;
+        dig2_c1 = mult_c1 % 10;
+        dig1_d1 = mult_d1 / 10;
+        dig2_d1 = mult_d1 % 10;
+        dig1_e1 = mult_e1 / 10;
+        dig2_e1 = mult_e1 % 10;
+        dig1_f1 = mult_f1 / 10;
+        dig2_f1 = mult_f1 % 10;
+        dig1_g1 = mult_g1 / 10;
+        dig2_g1 = mult_g1 % 10;
+        dig1_h1 = mult_h1 / 10;
+        dig2_h1 = mult_h1 % 10;
+        fina
     }
     else if (length == 15)
     {
