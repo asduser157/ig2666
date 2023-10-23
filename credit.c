@@ -115,7 +115,8 @@ int main(void)
     else if (b == 40 || b == 41 || b == 42 || b == 43 || b == 44 || b == 45 || b == 46 || b == 47 || b == 48 || b == 49)
     {
     printf("VISA\n");
-    printf("%d", step3;
+    printf("%d\n", step2);
+    printf("%d", step3);
         if (step3 == 0)
         {
             printf("***VALID CREDIT CARD NUMBER***\n");
