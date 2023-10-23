@@ -69,9 +69,9 @@ int main(void)
         k1 = card_long / 1000000 % 10;
         l1 = card_long / 100000000 % 10;
         m1 = card_long / 10000000000 % 10;
-        n1 = card_long / 100000000000 % 10;
-        o1 = card_long / 10000000000000 % 10;
-        p1 = card_long / 1000000000000000 % 10;
+        n1 = card_long / 1000000000000 % 10;
+        o1 = card_long / 100000000000000 % 10;
+        p1 = card_long / 10000000000000000 % 10;
         mult_a1 = a1 * 2;
         mult_b1 = b1 * 2;
         mult_c1 = b1 * 2;
