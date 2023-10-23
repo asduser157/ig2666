@@ -13,6 +13,16 @@ int main(void)
     if (length == 16)
     {
         b = card_long / 100000000000000;
+        int a1 = card_long / 10 % 10;
+        int b1 = card_long / 1000 % 10;
+        int c1 = card_long / 100000 % 10;
+        int d1 = card_long / 10000000 % 10;
+        int e1 = card_long / 1000000000 % 10;
+        int f1 = card_long / 100000000000 % 10;
+        int g1 = card_long / 10000000000000 % 10;
+        int h1 = card_long / 1000000000000000 % 10;
+        
+        printf("%d, %d, %d, %d, %d, %d, %d, %d", a1, b1, c1, d1, e1, f1, g1, h1);
     }
     else if (length == 15)
     {
@@ -25,7 +35,6 @@ int main(void)
     if (b == 51 || b == 52 || b == 53 || b == 54 || b == 55)
     {
         printf("DISCOVER/MASTERCARD\n");
-        
     }
     else if (b == 40 || b == 41 || b == 42 || b == 43 || b == 44 || b == 45 || b == 46 || b == 47 || b == 48 || b == 49)
     {
