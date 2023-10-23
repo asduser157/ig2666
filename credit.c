@@ -29,23 +29,23 @@ int main(void)
         mult_f1 = b1 * 2;
         mult_g1 = b1 * 2;
         mult_h1 = b1 * 2;
-        dig1_a1 = mult_a1 / 10;
-        dig2_a1 = mult_a1 % 10;
-        dig1_b1 = mult_b1 / 10;
-        dig2_b1 = mult_b1 % 10;
-        dig1_c1 = mult_c1 / 10;
-        dig2_c1 = mult_c1 % 10;
-        dig1_d1 = mult_d1 / 10;
-        dig2_d1 = mult_d1 % 10;
-        dig1_e1 = mult_e1 / 10;
-        dig2_e1 = mult_e1 % 10;
-        dig1_f1 = mult_f1 / 10;
-        dig2_f1 = mult_f1 % 10;
-        dig1_g1 = mult_g1 / 10;
-        dig2_g1 = mult_g1 % 10;
-        dig1_h1 = mult_h1 / 10;
-        dig2_h1 = mult_h1 % 10;
-        fina
+        _a1 = mult_a1 / 10;
+        _aa1 = mult_a1 % 10;
+        _b1 = mult_b1 / 10;
+        _bb1 = mult_b1 % 10;
+        _c1 = mult_c1 / 10;
+        _cc1 = mult_c1 % 10;
+        _d1 = mult_d1 / 10;
+        _dd1 = mult_d1 % 10;
+        _e1 = mult_e1 / 10;
+        _ee1 = mult_e1 % 10;
+        _f1 = mult_f1 / 10;
+        _ff1 = mult_f1 % 10;
+        _g1 = mult_g1 / 10;
+        _gg1 = mult_g1 % 10;
+        _h1 = mult_h1 / 10;
+        _hh1 = mult_h1 % 10;
+        step1 = _ +
     }
     else if (length == 15)
     {
