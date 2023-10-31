@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    int array1[4]
-    
+    string array1[4];
+    string one = get_string("What is your favorite )
 }
