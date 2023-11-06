@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
 void favorite() {
-    string array1[4];
     string one = get_string("Your favorite color is:\n");
-    array1[0] = one;
     printf("No way! My favorite color is %s, too!\n", one);
     string two = get_string("Your favorite movie is called:\n");
     printf("Really? You should know that The Princess Bride is better than %s!\n", two);
