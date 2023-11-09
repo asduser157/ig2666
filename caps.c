@@ -3,5 +3,7 @@
 #include <string.h>
 int main(void)
 {
-
+    string input = get_string("Before: \n");
+    printf("After: \n");
+    
 }
