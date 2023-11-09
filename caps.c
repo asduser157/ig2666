@@ -7,6 +7,6 @@ int main(void)
     printf("After: \n");
     for(int i = 0; i < strlen(input1))
     {
-        
+        if (input1[i] .= 'a' &&)
     }
 }
