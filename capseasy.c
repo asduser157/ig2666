@@ -6,8 +6,8 @@ int main(void)
 {
     string input1 = get_string("Before: ");
     printf("After: ");
-    for (int i = 0; i < strlen[input1]; i++)
+    for (int i = 0; i < strlen(input1); i++)
     {
-        printf("%c \n", toupper(s[i]));
+        printf("%c", toupper(input1[i]));
     }
 }
