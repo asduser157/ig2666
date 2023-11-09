@@ -3,17 +3,18 @@
 #include <string.h>
 int main(void)
 {
-    string input1 = get_string("Before: \n");
-    printf("After: \n");
+    string input1 = get_string("Before: ");
+    printf("After: ");
     for(int i = 0; i < strlen(input1); i ++)
     {
-        if (input1[i] = 'a' && input1[i] <= 'z')
+        if (input1[i] >= 'a' && input1[i] <= 'z')
         {
             printf("%c", input1[i] - 32);
         }
         else
         {
-            print("%c", input1[i]);
+            printf("%c", input1[i]);
         }
 
+    }
 }
