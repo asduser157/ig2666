@@ -20,7 +20,7 @@ int main(void)
         word1 = toupper(word1[i]);
         printf("%s", word1)
     }
-    for (int i = 0; i < strlen(word2); i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
         word2 = toupper(word2[i]);
         printf("%s", word2)
