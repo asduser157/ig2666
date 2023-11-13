@@ -8,7 +8,7 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 int A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z;
 char* getCharacters1(char* word1)
 {
-    // function implementation here
+    
 }
 char* getCharacters2(char* word2)
 {
