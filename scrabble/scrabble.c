@@ -15,11 +15,13 @@ int main(void)
     string word2 = get_string("Player 2: ");
     for (int i = 0; i < strlen(word1); i++)
     {
-        printf("%c", toupper(word1[i]));
+        toupper(word2[i]);
+        printf("%s", word2)
     }
     for (int i = 0; i < strlen(word2); i++)
     {
-        printf("%c", toupper(word2[i]));
+        toupper(word2[i]);
+        printf("%s", word2)
     }
 
     // Score both words
