@@ -13,6 +13,10 @@ int main(void)
     // Get input words from both players
     string word1 = get_string("Player 1: ");
     string word2 = get_string("Player 2: ");
+    for (int i = 0; i < strlen(word1); i++)
+    {
+        printf("%c", toupper(input1[i]));
+    }
 
     // Score both words
     int score1 = compute_score(word1);
