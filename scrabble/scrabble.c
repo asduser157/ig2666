@@ -41,14 +41,23 @@ int compute(string word);
 int main(void)
 {
     // Get input words from both players
+    int length = 0;
     string word1 = get_string("Player 1: ");
-    for (int i = 0; i < strlen(word1); i++)
+    length = strlen(word1);
+    for (int i = 0; i < length; i++)
     {
         printf("%c", toupper(word1[i]));
     }
+    for (int i = 0; i < length; i++)
+    {
+        length = length -
+    }
+
     printf("\n");
 
-    
+    printf("%c", str[]); // h
+
+    return 0;
 
 
 
