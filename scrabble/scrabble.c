@@ -5,36 +5,35 @@
 
 // Points assigned to each letter of the alphabet
 int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
-int A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z;
-A = 1;
-B = 3;
-C = 3;
-D = 2;
-E = 1;
-F = 4;
-G = 2;
-H = 4;
-I = 1;
-J = 8;
-K = 5;
-L = 1;
-M = 3;
-N = 1;
-O = 1;
-P = 3;
-Q = 10;
-R = 1;
-S = 1;
-T = 1;
-U = 1;
-V = 4;
-W = 4;
-X = 8;
-Y = 4;
-Z = 10;
+int A = 1;
+int B = 3;
+int C = 3;
+int D = 2;
+int E = 1;
+int F = 4;
+int G = 2;
+int H = 4;
+int I = 1;
+int J = 8;
+int K = 5;
+int L = 1;
+int M = 3;
+int N = 1;
+int O = 1;
+int P = 3;
+int Q = 10;
+int R = 1;
+int S = 1;
+int T = 1;
+int U = 1;
+int V = 4;
+int W = 4;
+int X = 8;
+int Y = 4;
+int Z = 10;
 char* getCharacters1(char* word1)
 {
-    
+
 }
 char* getCharacters2(char* word2)
 {
