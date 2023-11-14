@@ -15,7 +15,9 @@ F = 4;
 G = 2;
 H = 4;
 I = 1;
-
+J = 8;
+K = 5;
+L = 1;
 char* getCharacters1(char* word1)
 {
 
