@@ -55,7 +55,7 @@ int main(void)
         int length1 = 0;
         length1 = length1 + 1;
 
-        printf("%c", str[]);
+        printf("%c", word1[i]);
 
     }
 
