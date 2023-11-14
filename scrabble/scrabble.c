@@ -31,6 +31,7 @@ int W = 4;
 int X = 8;
 int Y = 4;
 int Z = 10;
+int length1 = 0;
 
 
     // rest of your code here
@@ -42,7 +43,6 @@ int main(void)
 {
     // Get input words from both players
     int length = 0;
-    int length1 = 0;
     string word1 = get_string("Player 1: ");
     length = strlen(word1);
     for (int i = 0; i < length; i++)
@@ -52,10 +52,9 @@ int main(void)
         printf("\n");
     for (int i = 0; i < length; i++)
     {
-        int length1 = 0;
         length1 = length1 + 1;
 
-        printf("%c", word1[i]);
+        printf("%c\n", word1[i]);
 
     }
 
