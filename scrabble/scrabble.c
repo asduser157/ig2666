@@ -41,9 +41,12 @@ int compute(string word);
 int main(void)
 {
     // Get input words from both players
-    string word1 = get_string("Player 1: ");
-    string word2 = get_string("Player 2: ");
-    
+    char* word1 = get_string("Player 1: ");
+    int length1 = strlen(word1);
+    printf("%c", word1[length - length + 1]);
+    printf("%c", word1[length - length + 1]);
+    char* word2 = get_string("Player 2: ");
+
     for(int i = 0; i < strlen(word2); i ++)
     {
         if (word2[i] >= 'a' && word2[i] <= 'z')
