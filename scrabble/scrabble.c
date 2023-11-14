@@ -42,6 +42,7 @@ int main(void)
 {
     // Get input words from both players
     int length = 0;
+    int length1 = 0;
     string word1 = get_string("Player 1: ");
     length = strlen(word1);
     for (int i = 0; i < length; i++)
@@ -50,7 +51,7 @@ int main(void)
     }
     for (int i = 0; i < length; i++)
     {
-        length = length -
+        length1 = length - (length + 1);
     }
 
     printf("\n");
