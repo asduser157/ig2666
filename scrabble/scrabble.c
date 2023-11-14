@@ -31,10 +31,8 @@ int W = 4;
 int X = 8;
 int Y = 4;
 int Z = 10;
-char* getCharacters1(char* word1)
-{
 
-}
+
 char* getCharacters2(char* word2)
 {
     // function implementation here
@@ -51,7 +49,7 @@ int main(void)
     // Get input words from both players
     char* word1 = get_string("Player 1: ");
     char* word2 = get_string("Player 2: ");
-    char* character1 = getCharacters(word1);
+    printf("%c", word1[0]);
     char* character2 = getCharacters(word2);
     for (int i = 0; i < strlen(word1); i++)
     {
