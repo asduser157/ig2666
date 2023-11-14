@@ -42,36 +42,22 @@ int main(void)
 {
     // Get input words from both players
     string word1 = get_string("Player 1: ");
-    for (int length1 = 1; i < strlen(word1); i++)
+    for (int i = 0; i < strlen(word1); i++)
     {
         printf("%c", toupper(word1[i]));
-        printf("%c", word1[length - length + 1]);
-    }
-    printf("%c", word1[length - length + 1]);
-    printf("%c", word1[length - length + 1]);
-    char* word2 = get_string("Player 2: ");
-
-    for(int i = 0; i < strlen(word2); i ++)
-    {
-        if (word2[i] >= 'a' && word2[i] <= 'z')
-        {
-            printf("%c", word2[i] - 32);
-        }
-        else
-        {
-            printf("%c", word2[i]);
-        }
-
     }
 
-    // Score both words
-    int score1 = compute(word1);
-    int score2 = compute(word2);
+
 
     // TODO: Print the winner
 }
 
-int compute(string word)
-{
+
+// Score both words
+    //int score1 = compute(word1);
+    //int score2 = compute(word2);
+
+//int compute(string word)
+//{
     // TODO: Compute and return score for string
-}
+  }
