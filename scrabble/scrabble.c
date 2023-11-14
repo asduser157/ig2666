@@ -12,6 +12,10 @@ C = 3;
 D = 2;
 E = 1;
 F = 4;
+G = 2;
+H = 4;
+I = 1;
+
 char* getCharacters1(char* word1)
 {
 
