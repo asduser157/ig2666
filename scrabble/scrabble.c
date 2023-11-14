@@ -49,14 +49,18 @@ int main(void)
     {
         printf("%c", toupper(word1[i]));
     }
+        printf("\n");
     for (int i = 0; i < length; i++)
     {
-        length1 = length - (length + 1);
+        int length1 = 0;
+        length1 = length1 + 1;
+
+        printf("%c", str[]);
+
     }
 
-    printf("\n");
 
-    printf("%c", str[]); // h
+    // h
 
     return 0;
 
