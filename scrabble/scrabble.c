@@ -8,7 +8,10 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 int A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z;
 A = 1;
 B = 3;
-
+C = 3;
+D = 2;
+E = 1;
+F = 4;
 char* getCharacters1(char* word1)
 {
 
