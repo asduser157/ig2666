@@ -33,12 +33,6 @@ int Y = 4;
 int Z = 10;
 
 
-char* getCharacters2(char* word2)
-{
-    // function implementation here
-}
-
-
     // rest of your code here
 
 int compute(string word);
@@ -47,19 +41,20 @@ int compute(string word);
 int main(void)
 {
     // Get input words from both players
-    char* word1 = get_string("Player 1: ");
-    char* word2 = get_string("Player 2: ");
-    printf("%c", word1[0]);
-    char* character2 = getCharacters(word2);
-    for (int i = 0; i < strlen(word1); i++)
+    string word1 = get_string("Player 1: ");
+    string word2 = get_string("Player 2: ");
+    
+    for(int i = 0; i < strlen(word2); i ++)
     {
-        word1 = toupper(word1[i]);
-        printf("%s", word1)
-    }
-    for (int i = 0; str[i] != '\0'; i++)
-    {
-        word2 = toupper(word2[i]);
-        printf("%s", word2)
+        if (word2[i] >= 'a' && word2[i] <= 'z')
+        {
+            printf("%c", word2[i] - 32);
+        }
+        else
+        {
+            printf("%c", word2[i]);
+        }
+
     }
 
     // Score both words
