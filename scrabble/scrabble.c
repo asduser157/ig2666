@@ -46,6 +46,7 @@ int main(void)
     {
         printf("%c", toupper(word1[i]));
     }
+    printf("\n");
 
 
 
@@ -60,4 +61,4 @@ int main(void)
 //int compute(string word)
 //{
     // TODO: Compute and return score for string
-  }
+  //}
