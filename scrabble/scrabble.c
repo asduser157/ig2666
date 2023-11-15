@@ -13,9 +13,9 @@ int main(void)
 {
     // Get input words from both players
 
-    int compute(string input_);
     string input_[2];
     int length = 0;
+    int compute(string input_);
 
     input_[0] = get_string("Player 1: ");
     input_[1] = get_string("Player 2: ");
