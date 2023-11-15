@@ -9,19 +9,18 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
     // rest of your code here
 
-int compute1(string word);
-int compute2(string word);
+int compute(string input_);
 
 
 int main(void)
 {
     // Get input words from both players
-    string word[2];
+    string input_[2];
     int length = 0;
-    int score1 = compute1(word);
-    int score2 = compute2(word);
-    word[0] = get_string("Player 1: ");
-    word[1] = get_string("Player 2: ");
+    int score1 = compute(input_[0]);
+    int score2 = compute(input_[1]);
+    input_[0] = get_string("Player 1: ");
+    input_[1] = get_string("Player 2: ");
 
     if (score1 > score2)
     {
@@ -38,37 +37,22 @@ int main(void)
 }
 
 
-int compute1(string word)
+int compute(string input_)
 {
-    int score01 = 0;
-    for (int i = 0; i < strlen(word); i++)
+    int score = 0;
+    for (int i = 0; i < strlen(input_); i++)
     {
-        if (isupper(word1[i]))
+        if (isupper(input_[i]))
         {
-            score01 += points[word[i] - 'A'];
+            score += points[input_[i] - 'A'];
         }
 
 
-        else if (islower(word[i]))
+        else if (islower(input_[i]))
         {
-            score01 += points[word[i] - 'a'];
+            score += points[input_[i] - 'a'];
         }
     }
 }
 
-int compute2(string word)
-{
-    int score02 = 0;
-    for (int i = 0; i < strlen(word); i++)
-    {
-        if (isupper(word[i]))
-        {
-            score02 += points[word[i] - 'A'];
-        }
 
-        else if (islower(word2[i]))
-        {
-            score02 += points[word[i] - 'a'];
-        }
-    }
-}
