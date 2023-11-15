@@ -27,17 +27,17 @@ int main(void)
     if (score1 > score2)
     {
         diff = score1 - score2;
-        printf("PLAYER 1: %i\nPLAYER 2: %i\n Player 1 is ahead by %i points!\n", score1, score2, diff);
+        printf("\nPLAYER 1: %i\nPLAYER 2: %i\n\nPlayer 1 is ahead by %i points!\n", score1, score2, diff);
     }
     else if (score1 < score2)
     {
         diff = score2 - score1;
-        printf("PLAYER 1: %i\n PLAYER 2: %i\n Player 2 is ahead by %i points!\n", score1, score2, diff);
+        printf("\nPLAYER 1: %i\nPLAYER 2: %i\n\nPlayer 2 is ahead by %i points!\n", score1, score2, diff);
     }
     else if (score1 == score2)
     {
         diff = 0;
-        printf("PLAYER 1: %i\n PLAYER 2: %i\n Player 1 and Player 2 are tied at %i points!\n", score1, score2, score2);
+        printf("\nPLAYER 1: %i\nPLAYER 2: %i\n\nPlayer 1 and Player 2 are tied at %i points!\n", score1, score2, score2);
     }
 }
 
