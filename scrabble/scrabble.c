@@ -36,10 +36,31 @@ int compute1(string word1)
 {
     // TODO: Compute and return score for string
     for (int i = 0; i < strlen(word1); i++)
+    {
+        if (isupper(word1[i]))
+        {
+            score += points[word1[i] - 'A'];
+        }
+    }
+
+        else if (islower(word1[i]))
+        {
+            score += points[word1[i] - 'a'];
+        }
 }
 
 int compute2(string word2)
 {
-    // TODO: Compute and return score for string
     for (int i = 0; i < strlen(word2); i++)
+    {
+        if (isupper(word2[i]))
+        {
+            score += points[word2[i] - 'A'];
+        }
+    }
+
+        else if (islower(word2[i]))
+        {
+            score += points[word2[i] - 'a'];
+        }
 }
