@@ -9,8 +9,8 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
     // rest of your code here
 
-int compute1(string word1);
-int compute2(string word2);
+compute1();
+compute2;
 
 
 int main(void)
