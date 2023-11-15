@@ -9,8 +9,8 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
     // rest of your code here
 
-compute1();
-compute2;
+int compute1();
+int compute2();
 
 
 int main(void)
@@ -38,7 +38,7 @@ int main(void)
 }
 
 
-int compute1(string word1)
+int compute1()
 {
     int score01 = 0;
     for (int i = 0; i < strlen(word1); i++)
@@ -56,7 +56,7 @@ int compute1(string word1)
     }
 }
 
-int compute2(string word2)
+int compute2()
 {
 
     int score02 = 0;
