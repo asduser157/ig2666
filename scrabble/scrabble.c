@@ -17,7 +17,7 @@ int main(void)
     int length = 0;
 
 
-    words[0] = get_string("Player 1: ");
+    words[0] = get_string("\nPlayer 1: ");
     words[1] = get_string("Player 2: ");
 
     int score1 = compute(words[0]);
