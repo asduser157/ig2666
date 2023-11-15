@@ -20,17 +20,23 @@ int main(void)
     string word1 = get_string("Player 1: ");
     string word2 = get_string("Player 2: ");
 
+    int score1 = compute1(word1);
+    int score2 = compute2(word2);
 
-
-
-
-    // TODO: Print the winner
+    if (score1 > score2)
+    {
+        printf("Player 1 is ahead with %i points!\n", score1);
+    }
+    else if (score1 < score2)
+    {
+        printf("Player 2 is ahead with %i points!\n", score2);
+    }
+    else if (score1 == score2)
+    {
+        printf("Player 1 is tied for %i points with Player 2!\n", score1);
+    }
 }
 
-
-// Score both words
-int score1 = compute1(word1);
-int score2 = compute2(word2);
 
 int compute1(string word1)
 {
@@ -39,13 +45,13 @@ int compute1(string word1)
     {
         if (isupper(word1[i]))
         {
-            score += points[word1[i] - 'A'];
+            score1 += points[word1[i] - 'A'];
         }
     }
 
         else if (islower(word1[i]))
         {
-            score += points[word1[i] - 'a'];
+            score1 += points[word1[i] - 'a'];
         }
 }
 
@@ -55,12 +61,12 @@ int compute2(string word2)
     {
         if (isupper(word2[i]))
         {
-            score += points[word2[i] - 'A'];
+            score2 += points[word2[i] - 'A'];
         }
     }
 
         else if (islower(word2[i]))
         {
-            score += points[word2[i] - 'a'];
+            score2 += points[word2[i] - 'a'];
         }
 }
