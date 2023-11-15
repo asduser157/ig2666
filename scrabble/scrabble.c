@@ -53,6 +53,7 @@ int compute(string input_)
             score += points[input_[i] - 'a'];
         }
     }
+    return score;
 }
 
 
