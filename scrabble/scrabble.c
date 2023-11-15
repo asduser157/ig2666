@@ -22,18 +22,22 @@ int main(void)
 
     int score1 = compute(words[0]);
     int score2 = compute(words[1]);
+    int diff = 0;
 
     if (score1 > score2)
     {
-        printf("Player 1 is ahead with %i points!\n", score1);
+        diff = score1 - score2;
+        printf("PLAYER 1: %i\nPLAYER 2: %i\n Player 1 is ahead by %i points!\n", score1, score2, diff);
     }
     else if (score1 < score2)
     {
-        printf("Player 2 is ahead with %i points!\n", score2);
+        diff = score2 - score1;
+        printf("PLAYER 1: %i\n PLAYER 2: %i\n Player 2 is ahead by %i points!\n", score1, score2, diff);
     }
     else if (score1 == score2)
     {
-        printf("Player 1 is tied for %i points with Player 2!\n", score1);
+        diff = 0;
+        printf("PLAYER 1: %i\n PLAYER 2: %i\n Player 1 and Player 2 are tied at %i points!\n", score1, score2, score2);
     }
 }
 
