@@ -17,11 +17,9 @@ int main(void)
 {
     // Get input words from both players
     int length = 0;
-    string word1 = get_string("Player 1: ");
-    string word2 = get_string("Player 2: ");
 
-    int score1 = compute1(word1);
-    int score2 = compute2(word2);
+    int score1 = compute1();
+    int score2 = compute2();
 
     if (score1 > score2)
     {
@@ -41,6 +39,7 @@ int main(void)
 int compute1()
 {
     int score01 = 0;
+    string word1 = get_string("Player 1: ");
     for (int i = 0; i < strlen(word1); i++)
     {
         if (isupper(word1[i]))
@@ -60,6 +59,7 @@ int compute2()
 {
 
     int score02 = 0;
+    string word2 = get_string("Player 2: ");
     for (int i = 0; i < strlen(word2); i++)
     {
         if (isupper(word2[i]))
