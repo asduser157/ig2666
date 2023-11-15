@@ -53,9 +53,8 @@ int main(void)
     for (int i = 0; i < length; i++)
     {
         length1 = length1 + 1;
-
         printf("%c", word1[i]);
-        printf("%i\n", length1);
+        if
 
 
     }
