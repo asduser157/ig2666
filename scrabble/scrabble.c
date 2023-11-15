@@ -8,20 +8,20 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
     // rest of your code here
 
-
+int compute(string words);
 int main(void)
 {
     // Get input words from both players
 
-    string input_[2];
+    string words[2];
     int length = 0;
-    int compute(string input_);
 
-    input_[0] = get_string("Player 1: ");
-    input_[1] = get_string("Player 2: ");
 
-    int score1 = compute(input_[0]);
-    int score2 = compute(input_[1]);
+    words[0] = get_string("Player 1: ");
+    words[1] = get_string("Player 2: ");
+
+    int score1 = compute(words[0]);
+    int score2 = compute(words[1]);
 
     if (score1 > score2)
     {
@@ -38,20 +38,20 @@ int main(void)
 }
 
 
-int compute(string input_)
+int compute(string words)
 {
     int score = 0;
-    for (int i = 0; i < strlen(input_); i++)
+    for (int i = 0; i < strlen(words); i++)
     {
-        if (isupper(input_[i]))
+        if (isupper(words[i]))
         {
-            score += points[input_[i] - 'A'];
+            score += points[words[i] - 'A'];
         }
 
 
-        else if (islower(input_[i]))
+        else if (islower(words[i]))
         {
-            score += points[input_[i] - 'a'];
+            score += points[words[i] - 'a'];
         }
     }
     return score;
