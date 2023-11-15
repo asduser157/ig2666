@@ -8,18 +8,18 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
     // rest of your code here
 
-int compute(string input_);
-
 
 int main(void)
 {
     // Get input words from both players
+
+    int compute(string input_);
     string input_[2];
     int length = 0;
 
     input_[0] = get_string("Player 1: ");
     input_[1] = get_string("Player 2: ");
-    
+
     int score1 = compute(input_[0]);
     int score2 = compute(input_[1]);
 
