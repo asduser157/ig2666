@@ -1,6 +1,10 @@
 #include <cs50.h>
 #include <stdio.h>
-
+int sky = 0;
+int space = 0;
+int  = 0;
+int land = 0;
+int
 int main(void)
 {
 
