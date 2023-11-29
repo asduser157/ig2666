@@ -35,7 +35,7 @@ void ask2
     int sun = 0;
     int rain = 0;
     int cloud = 0;
-    int question1 = get_int("Which best describes you? \n 1) Not everyone appreciates me, but when people see my true works they are amazed and thank me. \n 2) I share my light with everyone, I stay positive and   \n 3) I strive to change so I can better help others. \n 4) Winter\n");
+    int question1 = get_int("Which best describes you? \n 1) Not everyone appreciates me, but when people see my true works they are amazed and thank me. \n 2) I share my light with everyone, I stay positive and appreciate the start of every new day.  \n 3) I strive to change so I can better help others. \n 4) Winter\n");
     if(question1 == 1)
     {
         rain++;
