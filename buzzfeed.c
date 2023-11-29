@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 int ask1()
-    {
+{
     int snow = 0;
     int sun = 0;
     int rain = 0;
@@ -27,7 +27,7 @@ int ask1()
     {
         ask1();
     }
-    }
+}
 
 int main(void)
 {
