@@ -29,6 +29,35 @@ void ask1()
         ask1();
     }
 }
+void ask2
+{
+    int snow = 0;
+    int sun = 0;
+    int rain = 0;
+    int cloud = 0;
+    int question1 = get_int("Which best describes you? \n 1) Not everyone appreciates me, but when people see my true works they are amazed and thank me. \n 2) Summer \n 3) Fall \n 4) Winter\n");
+    if(question1 == 1)
+    {
+        rain++;
+    }
+    else if(question1 == 2)
+    {
+        sun++;
+    }
+    else if(question1 == 3)
+    {
+        cloud++;
+    }
+    else if(question1 == 4)
+    {
+        snow++;
+    }
+    else
+    {
+        printf("Invalid number entered. Please try again.\n");
+        ask1();
+    }
+}
 
 int main(void)
 {
