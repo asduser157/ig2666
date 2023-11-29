@@ -1,10 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
-int sky = 0;
-int space = 0;
-int  = 0;
-int land = 0;
-int
+int snow = 0;
+int sun = 0;
+int rain = 0;
+int cloud = 0;
 int main(void)
 {
 
