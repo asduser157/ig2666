@@ -1,6 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
-int ask1()
+void ask1()
 {
     int snow = 0;
     int sun = 0;
@@ -25,6 +25,7 @@ int ask1()
     }
     else
     {
+        printf("Invalid number entered. Please try again.\n");
         ask1();
     }
 }
