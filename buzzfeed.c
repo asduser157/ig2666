@@ -29,13 +29,13 @@ void ask1()
         ask1();
     }
 }
-void ask2
+void ask2()
 {
     int snow = 0;
     int sun = 0;
     int rain = 0;
     int cloud = 0;
-    int question1 = get_int("Which best describes you? \n 1) I am generous, an when people see my true works they are amazed and thank me. \n 2) I share my light with everyone and appreciate the start of every new day.  \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I try not to rush through anything, and I love helping others have fun in life.\n");
+    int question1 = get_int("Which best describes you? \n 1) I am generous, an when people see my true works they are amazed and thank me. \n 2) I try to be a positive person, and I appreciate the start of a new day.  \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
     if(question1 == 1)
     {
         rain++;
@@ -55,7 +55,7 @@ void ask2
     else
     {
         printf("Invalid number entered. Please try again.\n");
-        ask1();
+        ask2();
     }
 }
 
@@ -65,5 +65,6 @@ int main(void)
     printf("Welcome to my quiz! \n");
     printf("Please type in the number associated with your answer. \n");
     ask1();
+    ask2();
 
 }
