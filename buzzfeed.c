@@ -11,8 +11,22 @@ int main(void)
     printf("Please type in the number associated with your answer. \n");
 
     int question1 = get_int("What is your favorite season? \n 1) Spring \n 2) Summer \n 3) Fall \n 4) Winter\n");
-    if(question1 == 1){
+    if(question1 == 1)
+    {
         rain++;
-        
     }
+    else if(question1 == 2)
+    {
+        sun++;
+    }
+    else if(question1 == 3)
+    {
+        cloud++;
+    }
+    else if(question1 == 4)
+    {
+        snow++;
+    }
+    else
+
 }
