@@ -28,56 +28,49 @@ void ask1()
         printf("Invalid number entered. Please try again.\n");
         ask1();
     }
-}
-void ask2()
-{
-    int question1 = get_int("Which best describes you? \n 1) I am generous, an when people see my true works they are amazed and thank me. \n 2) I try to be a positive person, and I appreciate the start of a new day.  \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
-    if(question1 == 1)
+    int question2 = get_int("Which best describes you? \n 1) I am generous, an when people see my true works they are amazed and thank me. \n 2) I try to be a positive person, and I appreciate the start of a new day.  \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
+    if(question2 == 1)
     {
         rain++;
     }
-    else if(question1 == 2)
+    else if(question2 == 2)
     {
         sun++;
     }
-    else if(question1 == 3)
+    else if(question2 == 3)
     {
         cloud++;
     }
-    else if(question1 == 4)
+    else if(question2 == 4)
     {
         snow++;
     }
     else
     {
         printf("Invalid number entered. Please try again.\n");
-        ask2();
+        ask1();
     }
-}
-
-void ask3()
-{
-    int question1 = get_int("Which state would you prefer to live in? \n 1) Louisville, KY \n 2) Pensacola, FL \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
-    if(question1 == 1)
+    int question3 = get_int("Which state would you prefer to live in? \n 1) Louisville, KY \n 2) Sacramento, CA \n 3) Seattle, WA \n 4) Buffalo, NY \n");
+    if(question3 == 1)
     {
         rain++;
     }
-    else if(question1 == 2)
+    else if(question3 == 2)
     {
         sun++;
     }
-    else if(question1 == 3)
+    else if(question3 == 3)
     {
         cloud++;
     }
-    else if(question1 == 4)
+    else if(question3 == 4)
     {
         snow++;
     }
     else
     {
         printf("Invalid number entered. Please try again.\n");
-        ask2();
+        ask1();
     }
 }
 
@@ -87,6 +80,5 @@ int main(void)
     printf("Welcome to my quiz! \n");
     printf("Please type in the number associated with your answer. \n");
     ask1();
-    ask2();
 
 }
