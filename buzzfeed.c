@@ -57,7 +57,7 @@ void ask2()
 
 void ask3()
 {
-    int question1 = get_int("Which best describes you? \n 1) I am generous, an when people see my true works they are amazed and thank me. \n 2) I try to be a positive person, and I appreciate the start of a new day.  \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
+    int question1 = get_int("Which state would you prefer to live in? \n 1) \n 2) I try to be a positive person, and I appreciate the start of a new day.  \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
     if(question1 == 1)
     {
         rain++;
