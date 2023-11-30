@@ -50,7 +50,7 @@ void ask1()
         printf("Invalid number entered. Please try again.\n\n");
         ask1();
     }
-    int question3 = get_int("Which state would you prefer to live in? \n 1) Louisville, KY \n 2) Sacramento, CA \n 3) Seattle, WA \n 4) Buffalo, NY \n");
+    int question3 = get_int("Which city would you prefer to live in? \n 1) Louisville, KY \n 2) Sacramento, CA \n 3) Seattle, WA \n 4) Buffalo, NY \n");
     if(question3 == 1)
     {
         rain++;
