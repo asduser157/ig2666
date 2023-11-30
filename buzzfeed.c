@@ -57,7 +57,7 @@ void ask2()
 
 void ask3()
 {
-    int question1 = get_int("Which state would you prefer to live in? \n 1) Colorado Springs, CO \n 2) Pensacola, FL \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
+    int question1 = get_int("Which state would you prefer to live in? \n 1) Louisville, KY \n 2) Pensacola, FL \n 3) I am a creative person, and I strive to change so I can better help others. \n 4) I love helping others have fun, and I try to share the beauty in life with everyone.\n");
     if(question1 == 1)
     {
         rain++;
