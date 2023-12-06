@@ -10,7 +10,7 @@ int main(void){
     {
         if (strcmp(words[index], name) == 0)
         {
-
+            printf("You found)
         }
     }
 }
