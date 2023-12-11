@@ -29,11 +29,15 @@ int main(void)
         }
         if(vote == 'b')
         {
-            printf("Winnie the  Wait to see if Winnie wins!");
+            printf("Winnie the Pooh is known as the patron saint of teddy bears! Let's see if he wins!");
         }
         if(vote == 'c')
         {
             printf("The actor for Bugs Bunny was allergic to carrots! Wait to see if Bugs wins!");
+        }
+        if(vote == 'd')
+        {
+
         }
     }
     else if(age > 110)
