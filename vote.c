@@ -50,11 +50,13 @@ int main(void)
         }
         else
         {
-            printf("Uh-oh! Your vote was not valid. I guess Ozzy Osbourne got an extra unexpected vote!\n")
+            printf("Uh-oh! Your vote was not valid. I guess Ozzy Osbourne got an extra unexpected vote!\n");
         }
-        int array1[6] {}
-        printf("The winner is............................. ")'
-        printf(")
+        char *array1[6] = {"Mickey Mouse!", "Winnie the Pooh!", "Bugs Bunny!", "Scooby-Doo!", "Ozzy Osbourne!", "You!"};
+        int randomIndex = rand() % 6;
+        char *randomElement = array1[randomIndex];
+        printf("The winner is............................. ");
+        printf("%c", randomElement);
     }
     else if(age > 110)
     {
