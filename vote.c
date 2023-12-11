@@ -13,9 +13,13 @@ int main(void)
     {
         printf("Congratulations! You have officialy reached the age of being eligible to vote!\n");
     }
-    else if(age > 18 && age < 111)
+    else if(age > 18 && age < 111 && age != 35)
     {
         printf("You are eligible to vote!");
+    }
+    else if(age == 35)
+    {
+        printf("You are not only eligible to vote, but you are now eligible to run for president!*\n\n*You must be a natural born U.S. citizen and have been a resident of the U.S. for at least 14 years.\n");
     }
     else if(age > 110)
     {
