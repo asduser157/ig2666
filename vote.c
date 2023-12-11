@@ -22,7 +22,7 @@ int main(void)
     }
     else if(age == 35)
     {
-        printf("You are not only eligible to vote, but you are now eligible to run for president!*\n\n*You must be a natural born U.S. citizen and have been a resident of the U.S. for at least 14 years.\n");
+        printf("You are not only eligible to vote, but you are now eligible to run for president!*\n\n*You must be a natural born U.S. citizen and have been a resident of the U.S. for at least 14 years.\n\n\n");
         char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n  f) Yourself \n");
         if(vote == 'a')
         {
@@ -55,8 +55,8 @@ int main(void)
         char *array1[6] = {"Mickey Mouse!", "Winnie the Pooh!", "Bugs Bunny!", "Scooby-Doo!", "Ozzy Osbourne!", "You!"};
         int randomIndex = rand() % 6;
         char *randomElement = array1[randomIndex];
-        printf("The winner is............................. ");
-        printf("%c", randomElement);
+        printf("\nThe winner is............................. ");
+        printf("%s\n", randomElement);
     }
     else if(age > 110)
     {
