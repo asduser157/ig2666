@@ -23,6 +23,18 @@ int main(void)
     {
         printf("You are not only eligible to vote, but you are now eligible to run for president!*\n\n*You must be a natural born U.S. citizen and have been a resident of the U.S. for at least 14 years.\n");
         char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n  f) Yourself \n");
+        if(vote == 'a')
+        {
+            printf("Eek! Walt Disney was afraid of mice. Hold on a second to see if Mickey wins!");
+        }
+        if(vote == 'b')
+        {
+            printf("Winnie the  Wait to see if Winnie wins!");
+        }
+        if(vote == 'c')
+        {
+            printf("The actor for Bugs Bunny was allergic to carrots! Wait to see if Bugs wins!");
+        }
     }
     else if(age > 110)
     {
