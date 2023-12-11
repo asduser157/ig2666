@@ -20,6 +20,7 @@ int main(void)
     else if(age == 35)
     {
         printf("You are not only eligible to vote, but you are now eligible to run for president!*\n\n*You must be a natural born U.S. citizen and have been a resident of the U.S. for at least 14 years.\n");
+        printf("Who do you want to vote for?\n  a) \n  b)
     }
     else if(age > 110)
     {
