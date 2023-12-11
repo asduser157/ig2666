@@ -12,15 +12,17 @@ int main(void)
     else if(age == 18)
     {
         printf("Congratulations! You have officialy reached the age of being eligible to vote!\n");
+        char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n");
     }
     else if(age > 18 && age < 111 && age != 35)
     {
         printf("You are eligible to vote!");
+        char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n");
     }
     else if(age == 35)
     {
         printf("You are not only eligible to vote, but you are now eligible to run for president!*\n\n*You must be a natural born U.S. citizen and have been a resident of the U.S. for at least 14 years.\n");
-        printf("Who do you want to vote for?\n  a) \n  b)
+        char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n  f) Yourself \n");
     }
     else if(age > 110)
     {
