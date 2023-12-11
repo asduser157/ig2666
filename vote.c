@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <stdlib.h>
 int main(void)
 {
     int age = get_int("How old are you?\n");
@@ -51,6 +52,7 @@ int main(void)
         {
             printf("Uh-oh! Your vote was not valid. I guess Ozzy Osbourne got an extra unexpected vote!\n")
         }
+        int array1[6] {}
         printf("The winner is............................. ")'
         printf(")
     }
