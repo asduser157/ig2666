@@ -3,6 +3,7 @@
 #include <stdlib.h>
 int main(void)
 {
+    srand(time(NULL))
     int age = get_int("How old are you?\n");
     int extra = 0;
     if(age >= 0 && age < 18)
