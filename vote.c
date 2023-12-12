@@ -4,7 +4,7 @@
 #include <time.h>
 int main(void)
 {
-    srand(time(NULL))
+    srand(time(NULL));
     int age = get_int("How old are you?\n");
     int extra = 0;
     if(age >= 0 && age < 18)
@@ -50,7 +50,7 @@ int main(void)
         {
             printf("You are in the mix of candidates! Let's wait for a bit and see if you win!\n");
         }
-        else
+        else if(vote != 'a' || vote != 'b' || vote != 'c' || vote != 'd' || vote != 'e' || vote != 'f')
         {
             printf("Uh-oh! Your vote was not valid. I guess Ozzy Osbourne got an extra unexpected vote!\n");
         }
