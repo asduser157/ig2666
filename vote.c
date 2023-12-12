@@ -16,7 +16,6 @@ int main(void)
     {
         printf("Congratulations! You have officialy reached the age of being eligible to vote!\n");
         char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n");
-        char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n  f) Yourself \n");
         if(vote == 'a')
         {
             printf("Eek! Walt Disney was afraid of mice. Hold on a second to see if Mickey wins!\n");
