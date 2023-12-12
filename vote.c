@@ -48,7 +48,7 @@ int main(void)
     }
     else if(age > 18 && age < 111 && age != 35)
     {
-        printf("You are eligible to vote!");
+        printf("You are eligible to vote!\n");
         char vote = get_char("Who do you want to vote for?\n  a) Mickey Mouse \n  b) Winnie the Pooh \n  c) Bugs Bunny \n  d) Scooby Doo \n  e) Ozzy Osbourne \n");
         if(vote == 'a')
         {
