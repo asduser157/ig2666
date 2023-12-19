@@ -12,8 +12,7 @@ int main(void)
     decide = get_int("_______________________________________________________________________________________\n\nWhich unit would you like to convert your temperature to?\n 1) Celsius \n 2) Kelvin \n");
     if (decide == 1)
     {
-        Fahrenheit = Fahrenheit - 32;
-        Celsius = (Fahrenheit * (5/9));
+        Celsius = ((Fahrenheit - 32) * (5/9));
         printf("_______________________________________________________________________________________\n\nYour final temperature is: %lf °C \n", Celsius);
     }
     else if (decide == 2)
