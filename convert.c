@@ -14,13 +14,13 @@ int main(void)
     {
         Kelvin = 0;
         Celsius = ((5/9) * (Fahrenheit - 32));
-        printf("_______________________________________________________________________________________\n\nYour final temperature is: %f °C \n", Celsius);
+        printf("_______________________________________________________________________________________\n\nYour final temperature is: %lf °C \n", Celsius);
     }
     else if (decide == 2)
     {
         Celsius = ((5/9) * (Fahrenheit - 32));
         Kelvin = (Celsius + 273.15);
-        printf("_______________________________________________________________________________________\n\nYour final temperature is: %f K \n", Kelvin);
+        printf("_______________________________________________________________________________________\n\nYour final temperature is: %lf K \n", Kelvin);
     }
 
 }
