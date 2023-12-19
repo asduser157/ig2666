@@ -13,7 +13,8 @@ int main(void)
     if (decide == 1)
     {
         Kelvin = 0;
-        Celsius = ((5/9) * (Fahrenheit - 32));
+        Fahrenheit = Fahrenheit - 32;
+        Celsius = (Fahrenheit * (5/9));
         printf("_______________________________________________________________________________________\n\nYour final temperature is: %lf °C \n", Celsius);
     }
     else if (decide == 2)
