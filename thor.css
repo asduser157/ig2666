@@ -1,46 +1,46 @@
 h1 {
-    text-align: center;
-    font-family: "Nosifer", cursive;
-    font-weight: lighter;
-    font-size: 43px;
-    color: lawngreen;
-  }
-  body {
-    background-color: black;
-  }
+  text-align: center;
+  font-family: "Nosifer", cursive;
+  font-weight: lighter;
+  font-size: 43px;
+  color: lawngreen;
+}
+body {
+  background-color: black;
+}
 
-  p {
-    font-family: "Balsamiq Sans", cursive;
-    text-align: center;
-    font-size: 17px;
-    font-weight: bolder;
-    color: white;
-  }
+p {
+  font-family: "Balsamiq Sans", cursive;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  color: white;
+}
 
-  hr {
-    background-color: darkmagenta;
-    height: 7px;
-    border-style: solid;
-    border-color: darkmagenta;
-  }
-  .button {
-    font-family: "Balsamiq Sans", cursive;
-    text-align: center;
-    font-size: 17px;
-  }
-  .clickme {
-    font-family: "Schoolbell", cursive;
-    text-align: center;
-    font-size: 17px;
-    font-weight: bold;
-  }
+hr {
+  background-color: darkmagenta;
+  height: 7px;
+  border-style: solid;
+  border-color: darkmagenta;
+}
+.button {
+  font-family: "Balsamiq Sans", cursive;
+  text-align: center;
+  font-size: 17px;
+}
+.clickme {
+  font-family: "Schoolbell", cursive;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
 
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-  }
-  body {
-    text-align:center;
-  }
+}
+body {
+  text-align:center;
+}
