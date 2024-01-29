@@ -1,4 +1,9 @@
 ol {color: #ede3cb;}
 a {color: #ede3cb;}
 h1 {color: #ede3cb;}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ede3cb;
+  }
 
