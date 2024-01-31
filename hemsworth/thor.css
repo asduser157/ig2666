@@ -1,9 +1,9 @@
 ol {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb;}
-a {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb;}
-h1 {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb; text-align: center;}
+a {border: 7.45px none #ede3cb; border-radius: 0px; padding: 15px; font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb;}
+h1 {border: 7.45px solid #ede3cb; border-radius: 0px; padding: 15px; font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb; text-align: center;}
 hr {border: none; height: 1px; background-color: #ede3cb; width: 75%;}
 h2 {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; text-align: center;}
-h3 {border: 7.45px solid #ede3cb; border-radius: 100px; border-padding: 100px; font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb; text-align: justify;}
+h3 {border: 7.45px ridge #ede3cb; border-radius: 0px; padding: 15px; font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb; text-align: justify;}
 body {margin: 28px;}
 
 
