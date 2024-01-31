@@ -1,7 +1,8 @@
-ol {color: #ede3cb;}
-a {color: #ede3cb;}
-h1 {color: #ede3cb; text-align: center;}
+ol {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb;}
+a {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb;}
+h1 {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb; text-align: center;}
 hr {border: none; height: 1px; background-color: #ede3cb; width: 75%;}
-h2 {font-family: "Cormorant Garamond", serif; font-weight: 400; font-style: normal; text-align: center;}
+h2 {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; text-align: center;}
+h3 {font-family: "Bodoni Moda", serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; color: #ede3cb; text-align: justify;}
 
 
