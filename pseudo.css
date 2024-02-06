@@ -25,11 +25,11 @@
     text-align: center;
     font-size: 18px;
     padding: 8px;
-    width: 190px;
-    transition: all 0.5s;
+    width: 220px;
+    transition: width 0.7s;
     cursor: pointer;
     margin: 5px;
-    font-weight: bold;
+    font-weight: 10;
     border: solid;
     border-color: black;
     box-sizing: inherit;
@@ -55,19 +55,19 @@
 .button2:hover{
     display: inline-block;
     border-radius: 20px;
-    background-color: #00ae4d;
+    background-color: #007cc2;
     border: none;
     color: white;
     text-align: center;
     font-size: 18px;
     padding: 8px;
-    width: 180px;
-    transition: all 0.05s;
+    width: 190px;
+    transition: width 0.7s;
     cursor: pointer;
     margin: 5px;
-    font-weight: bold;
+    font-weight: 10;
     border: solid;
-    border-color: black;
+    border-color: #fdbc30;
     box-sizing: inherit;
 }
 
