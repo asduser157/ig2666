@@ -1,11 +1,12 @@
 .button1 {
     display: inline-block;
     border-radius: 20px;
-    background-color: #f2f2f2;
+    background-color: #ff0000;
     border: none;
     color: #030303;
     text-align: center;
     font-size: 18px;
+    font-color: white;
     padding: 8px;
     width: 150px;
     transition: all 0.5s;
