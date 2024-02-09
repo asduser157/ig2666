@@ -1,17 +1,20 @@
 body
 {
-    background: linear-gradient(180deg, #9888ff, #11567c,);
+    background: linear-gradient(180deg, #15232e, #11566f);
 }
 #title
 {
     text-align: center;
+    color: white;
 }
 h3, h2
 {
     text-align: center;
+    color: white;
 }
 h4
 {
     font-weight: normal;
     text-align: center;
+    color: white;
 }
