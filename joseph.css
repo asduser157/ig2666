@@ -4,6 +4,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 body
 {
     background: linear-gradient(180deg, #15232e, #11566f);
