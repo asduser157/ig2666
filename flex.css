@@ -5,13 +5,13 @@
 }
 #container > div
 {
-    background-color:pink;
+    background-color:#c7ff99;
     font-size: 20px;
     margin: 20px;
     padding: 20px;
-    width: 170px;
+    width: 145px;
 }
 body
 {
-    background-color: #FDEB9D;
+    background-color:#a6d9ff;
 }
