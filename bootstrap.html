@@ -21,8 +21,8 @@
               <div id="list-example" class="list-group">
                 <a class="list-group-item list-group-item-action" href="#list-item-1">Alerts</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-2">Loading Animations</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-3">Element 3</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-4">Element 4</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Dropdown Accordions</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Badges</a>
                 <a class="list-group-item list-group-item-action" href="#list-item-5">Element 5</a>
               </div>
             </div>
@@ -41,7 +41,7 @@
                 <div class="alert alert-danger" role="alert">
                     An example danger alert!
                 </div>
-                <h4 id="list-item-2">Element 2: The Dreaded Loading Sign</h4>
+                <h4 id="list-item-2">Element 2: Dreaded Loading Animations</h4>
                 <div class="spinner-border text-primary" role="status">
                     <span class="visually-hidden">Loading...</span>
                   </div>
@@ -54,10 +54,60 @@
                   <div class="spinner-border text-warning" role="status">
                     <span class="visually-hidden">Loading...</span>
                   </div>
-                <h4 id="list-item-3">Element 3</h4>
-                <p>...</p>
-                <h4 id="list-item-4">Element 4</h4>
-                <p>...</p>
+                <h4 id="list-item-3">Element 3: Dropdown Menu Accordions</h4>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          <b>Accordion Item #1</b>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <i>This is the first item's accordion body.</i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          <b>Accordion Item #2</b>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <i>This is the second item's accordion body.</i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <b>Accordion Item #3</b>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          <i>This is the third item's accordion body.</i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <h4 id="list-item-4">Element 4: Notification Badges</h4>
+                <button type="button" class="btn btn-primary position-relative">
+                    Inbox
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      1
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+                  <button type="button" class="btn btn-primary position-relative">
+                    Messages
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      92
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
                 <h4 id="list-item-5">Element 5</h4>
                 <p>...</p>
               </div>
