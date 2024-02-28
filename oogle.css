@@ -37,8 +37,9 @@
     display: block;
     color: white;
     padding: 10px;
-    border-radius: 5px;
-    border: none;
+    border-radius: 6px;
+    border: 1.2px solid #303134;
+
 }
 #box:hover
 {
