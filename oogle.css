@@ -26,8 +26,13 @@
 }
 #box
 {
-    width:35px;
-    position:absolute;
+    width:100px;
+    position: absolute;
     top: 175px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+
 
 }
