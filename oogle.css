@@ -6,9 +6,11 @@
 }
 #bar
 {
-    padding:10px;
+    padding:13px;
+    width:555px;
+    
 }
 #box
 {
-
+    width:40px;
 }
