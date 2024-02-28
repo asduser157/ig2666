@@ -1,6 +1,14 @@
-.logo
+.logo, #box, #bar
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#bar
+{
+    padding:10px;
+}
+#box
+{
+
 }
