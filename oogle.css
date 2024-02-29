@@ -11,8 +11,8 @@
 }
 #bar
 {
-    padding:13px;
-    width:560px;
+    padding:15px;
+    width:555px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -23,26 +23,29 @@
     left: 0px;
     right: 0px;
     top: 100px;
-    color: #ffffff
+    color: #ffffff;
+    positon: absolute;
+    left: 0px;
+    right: 0px;
+    top: 177px;
 }
 #bar:active
 {
     border: 0px solid #202124;
     background-color: #202124;
-    ;
 }
 #box
 {
-    width:130px;
+    width: 120px;
     margin: auto;
     text-align: center;
     background-color: #303134;
     display: block;
     color: #ffffff;
     padding: 10px 0;
-    border-radius:3.5px;
+    border-radius: 3.5px;
     border: 1.2px solid #303134;
-    font-size: 15px;
+    font-size: 13.55px;
 }
 #box:hover
 {
@@ -50,7 +53,7 @@
 }
 #boxed
 {
-    width:150px;
+    width:135px;
     margin: auto;
     text-align: center;
     background-color: #303134;
@@ -59,7 +62,7 @@
     padding: 10px 0;
     border-radius:3.5px;
     border: 1.2px solid #303134;
-    font-size: 15px;
+    font-size: 13.5px;
 }
 #boxed:hover
 {
@@ -70,4 +73,6 @@
     display:flex;
     gap: 12px;
     justify-content: center;
+    position: relative;
+    top: 245px;
 }
