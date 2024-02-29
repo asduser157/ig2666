@@ -54,6 +54,10 @@
     border: 1.2px solid #303134;
     font-size: 15px;
 }
+#boxed:hover
+{
+    border: 1.2px solid #5e6267;
+}
 #container
 {
     display:flex;
