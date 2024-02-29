@@ -40,10 +40,21 @@
     border-radius:3.5px;
     border: 1.2px solid #303134;
     font-size: 15px;
-
-
 }
 #box:hover
 {
     border: 1.2px solid #5e6267;
+}
+#container
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+#container > div
+{
+    background-color:#c7ff99;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 145px;
 }
