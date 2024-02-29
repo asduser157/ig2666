@@ -31,7 +31,7 @@
     text-align: center;
     background-color: #303134;
     display: block;
-    color: #dceae1;
+    color: #ffffff;
     padding: 10px 0;
     border-radius:3.5px;
     border: 1.2px solid #303134;
@@ -48,7 +48,7 @@
     text-align: center;
     background-color: #303134;
     display: block;
-    color: #dceae1;
+    color: #ffffff;
     padding: 10px 0;
     border-radius:3.5px;
     border: 1.2px solid #303134;
@@ -57,7 +57,8 @@
 #container
 {
     display:flex;
-    justify-content: space-around;
+    gap: 12px;
+    justify-content: center;
 }
 #container > div
 {
