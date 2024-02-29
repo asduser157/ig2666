@@ -27,10 +27,6 @@
 #box
 {
     width:130px;
-    position: absolute;
-    top: 175px;
-    left: 0px;
-    right: 0px;
     margin: auto;
     text-align: center;
     background-color: #303134;
@@ -45,10 +41,23 @@
 {
     border: 1.2px solid #5e6267;
 }
+#boxed
+{
+    width:150px;
+    margin: auto;
+    text-align: center;
+    background-color: #303134;
+    display: block;
+    color: #dceae1;
+    padding: 10px 0;
+    border-radius:3.5px;
+    border: 1.2px solid #303134;
+    font-size: 15px;
+}
 #container
 {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 #container > div
 {
