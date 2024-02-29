@@ -25,6 +25,12 @@
     top: 100px;
     color: #ffffff
 }
+#bar:active
+{
+    border: 0px solid #202124;
+    background-color: #202124;
+    ;
+}
 #box
 {
     width:130px;
