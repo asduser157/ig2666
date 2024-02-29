@@ -34,7 +34,7 @@
     border: 0px solid #202124;
     background-color: #303134;
 }
-.store_about
+.whatever
 {
     width: 40px;
     text-align: center;
@@ -46,6 +46,11 @@
     border: 1.2px solid #202124;
     font-size: 13.55px;
 }
+.whatever:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
 #link
 {
     margin: 18px;
@@ -55,10 +60,7 @@
     position: relative;
     top: -55px;
 }
-#link:hover
-{
-    text-decoration: underline;
-}
+
 #box
 {
     width: 120px;
