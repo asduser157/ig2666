@@ -61,13 +61,14 @@
     display: block;
     color: #ffffff;
     padding: 10px 0;
-    border-radius: 3.5px;
+    border-radius: 4.2px;
     border: 1.2px solid #303134;
     font-size: 13.55px;
 }
 #box:hover
 {
     border: 1.2px solid #5e6267;
+    cursor: pointer;
 }
 #boxed
 {
@@ -78,13 +79,14 @@
     display: block;
     color: #ffffff;
     padding: 10px 0;
-    border-radius:3.5px;
+    border-radius:4.2px;
     border: 1.2px solid #303134;
     font-size: 13.5px;
 }
 #boxed:hover
 {
     border: 1.2px solid #5e6267;
+    cursor: pointer;
 }
 #container
 {
