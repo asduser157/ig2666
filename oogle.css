@@ -55,6 +55,10 @@
     position: relative;
     top: -55px;
 }
+#link:hover
+{
+    text-decoration: underline;
+}
 #box
 {
     width: 120px;
