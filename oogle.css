@@ -29,7 +29,7 @@
     right: 0px;
     top: 177px;
 }
-#bar:hover
+#bar:focus
 {
     border: 0px solid #202124;
     background-color: #303134;
