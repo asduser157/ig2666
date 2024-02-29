@@ -29,10 +29,10 @@
     right: 0px;
     top: 177px;
 }
-#bar:active
+#bar:hover
 {
     border: 0px solid #202124;
-    background-color: #202124;
+    background-color: #303134;
 }
 #box
 {
