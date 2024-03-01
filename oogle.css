@@ -75,11 +75,22 @@
 }
 #sizer2
 {
-    width: 50px;
+    width: 40px;
     position: relative;
-    top: 3px;
-    right: 0px;
+    top: 0px;
+    right: 2px;
+    border: 1.2px solid #202124;
     border-radius: 100px;
+}
+#sizer2:hover
+{
+    width: 40px;
+    position: relative;
+    top: 0px;
+    right: 2px;
+    border-radius: 100px;
+    cursor: pointer;
+
 }
 .flask
 {
@@ -122,11 +133,13 @@
     width: 32px;
     background-color: #303134;
     border: 0px solid #303134;
+    cursor:pointer;
 }
 .flask:hover
 {
     background-color: #303134;
     border: 0px solid #303134;
+    cursor: pointer;
 }
 .different
 {
