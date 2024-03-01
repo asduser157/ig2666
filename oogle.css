@@ -59,6 +59,11 @@
     font-size: 13.55px;
     visibility: hidden;
 }
+#flask
+{
+    background-image: url('flask.png');
+    backgorund-size: cover;
+}
 .different
 {
     width: 40px;
