@@ -65,9 +65,6 @@
     display:flex;
     gap: 12px;
     justify-content: center;
-    position: absolute;
-    top: 245px;
-    right: 0;
 }
 .mr_rightside:hover
 {
