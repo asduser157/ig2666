@@ -45,6 +45,8 @@
     border-radius: 3.5px;
     border: 1.2px solid #202124;
     font-size: 13.55px;
+    position: relative;
+
 }
 #fix
 {
@@ -55,6 +57,8 @@
     color: #c0c0c0;
     padding: 10px 0;
     border-radius: 3.5px;
+    position: absolute;
+    top: 0px;
     border: 1.2px solid #202124;
     font-size: 13.55px;
     visibility: hidden;
