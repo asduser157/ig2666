@@ -73,6 +73,14 @@
     right: 0px;
     border-radius: 200px;
 }
+#sizer2
+{
+    width: 50px;
+    position: relative;
+    top: 3px;
+    right: 0px;
+    border-radius: 100px;
+}
 .flask
 {
     width: 37px;
