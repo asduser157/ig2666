@@ -73,7 +73,7 @@
     right: 0px;
     border-radius: 200px;
 }
-#flask
+.flask
 {
     width: 37px;
     margin: 0px;
@@ -85,13 +85,13 @@
     top: 2px;
     right: -5px;
     border-radius: 28px;
-    border: 1.2px solid #202124;
+    border: 0px solid #202124;
     font-size: 13.55px;
 }
-#flask:hover
+.flask:hover
 {
     background-color: #303134;
-    border: 1.2px solid #303134;
+    border: 0px solid #303134;
 }
 .different
 {
@@ -104,6 +104,8 @@
     border-radius: 3.5px;
     border: 1.2px solid #202124;
     font-size: 13.55px;
+    position: relative;
+    top: 1.5px;
 }
 .whatever:hover
 {
