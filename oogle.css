@@ -34,7 +34,7 @@
     border: 0px solid #202124;
     background-color: #303134;
 }
-.whatever
+#what
 {
     width: 40px;
     text-align: center;
@@ -45,7 +45,28 @@
     border-radius: 3.5px;
     border: 1.2px solid #202124;
     font-size: 13.55px;
-
+}
+#what: hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#ever
+{
+    width: 40px;
+    text-align: center;
+    background-color: #202124;
+    display: block;
+    color: #c0c0c0;
+    padding: 10px 0;
+    border-radius: 3.5px;
+    border: 1.2px solid #202124;
+    font-size: 13.55px;
+}
+#ever:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
 }
 #fix
 {
@@ -194,11 +215,7 @@
     position: relative;
     top: 1.5px;
 }
-.whatever:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
-}
+
 .link
 {
     margin: 18px;
