@@ -5,7 +5,7 @@
     margin-right: auto;
     position: absolute;
     top: 15px;
-    left: 0px;
+    left: 7px;
     right: 0px;
     z-index: -2;
 }
@@ -189,19 +189,19 @@
 {
     margin: 18px;
     display:flex;
-    gap: 20px;
+    gap: 17px;
     justify-content: left;
     position: relative;
-    top: 0px;
+    top: -93px;
 }
 #buttons
 {
     margin: 18px;
     display:flex;
-    gap: 12px;
+    gap: 10px;
     justify-content: right;
     position: relative;
-    top: -110px;
+    top: -150px;
 }
 #box
 {
