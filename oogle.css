@@ -59,9 +59,15 @@
     font-size: 13.55px;
     visibility: hidden;
 }
-#sizer
+#sizer0
 {
     width: 23px;
+    position: relative;
+    top: 0px;
+}
+#sizer1
+{
+    width: 21px;
 }
 #flask
 {
@@ -93,26 +99,6 @@
     font-size: 13.55px;
 }
 .whatever:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.mr_rightside
-{
-    width: 40px;
-    text-align: center;
-    background-color: #202124;
-    display: block;
-    color: #c0c0c0;
-    padding: 10px 0;
-    border-radius: 3.5px;
-    border: 1.2px solid #202124;
-    font-size: 13.55px;
-    display:flex;
-    gap: 12px;
-    justify-content: center;
-}
-.mr_rightside:hover
 {
     text-decoration: underline;
     cursor: pointer;
