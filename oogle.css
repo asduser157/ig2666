@@ -233,6 +233,11 @@
     position: relative;
     top: -150px;
 }
+#buttons:hover
+{
+   text-decoration: underline;
+   cursor: pointer;
+}
 #box
 {
     width: 120px;
