@@ -37,10 +37,12 @@
 .button
 {
     width: 40px;
+    display: inline-block;
     text-align: center;
     background-color: #202124;
     display: block;
     color: #c0c0c0;
+    text-decoration: none;
     padding: 10px 0;
     border-radius: 3.5px;
     border: 1.2px solid #202124;
