@@ -32,17 +32,17 @@
 #bar:focus
 {
     border: 0px solid #202124;
-    background-color: #303134;
+    background-color: #bded7d;
 }
 .button
 {
     width: 40px;
     text-align: center;
-    background-color: #202124;
-    color: #c0c0c0;
+    background-color: #bded7d;
+    color: #bded7d;
     padding: 10px 0;
     border-radius: 3.5px;
-    border: 1.2px solid #202124;
+    border: 1.2px solid #bded7d;
     font-size: 13.55px;
 }
 .button:hover
@@ -54,8 +54,8 @@
 {
     width: 40px;
     text-align: center;
-    background-color: #202124;
-    color: #c0c0c0;
+    background-color: #bded7d;
+    color: #bded7d;
     padding: 10px 0;
     border-radius: 3.5px;
     border: 1.2px solid #202124;
@@ -70,7 +70,7 @@
 {
     width: 40px;
     text-align: center;
-    background-color: #202124;
+    background-color: #bded7d;
     display: block;
     color: #c0c0c0;
     padding: 10px 0;
@@ -87,7 +87,7 @@
 {
     width: 925px;
     text-align: center;
-    background-color: #202124;
+    background-color: #bded7d;
     display: block;
     color: #c0c0c0;
     padding: 10px 0;
@@ -155,7 +155,7 @@
     margin-left: 0px;
     margin-top: 5px;
     text-align: center;
-    background-color: #202124;
+    background-color: #bded7d;
     display: block;
     padding: 4px 0;
     position: relative;
@@ -220,7 +220,7 @@
 {
     width: 40px;
     text-align: center;
-    background-color: #BCEC7E;
+    background-color: #bded7d;
     display: block;
     color: #ffffff;
     padding: 10px 0;
@@ -275,7 +275,7 @@
     width: 120px;
     margin: auto;
     text-align: center;
-    background-color: #303134;
+    background-color: #bded7d;
     display: block;
     color: #ffffff;
     padding: 10px 0;
