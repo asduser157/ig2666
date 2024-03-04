@@ -22,12 +22,8 @@
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 100px;
+    top: 275px;
     color: #bded7d;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 177px;
 }
 #bar:focus
 {
@@ -190,16 +186,16 @@
 {
     width: 55px;
     position: relative;
-    left: 835px;
-    top: 165px;
+    left: 820px;
+    top: 200px;
     z-index: 5;
 }
 .voice1
 {
-    width: 35px;
+    width: 50px;
     position: relative;
-    left: 902.5px;
-    top: 175px;
+    left: 910px;
+    top: 200px;
     z-index: 4;
 }
 #different1
