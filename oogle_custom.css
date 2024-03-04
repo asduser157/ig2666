@@ -16,14 +16,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #e9eef6;
-    border: 1.2px solid #e9eef6;
+    background-color: #bded7d;
+    border: 1.2px solid #bded7d;
     border-radius: 30px;
     position: absolute;
     left: 0px;
     right: 0px;
     top: 100px;
-    color: #ffffff;
+    color: #bded7d;
     position: absolute;
     left: 0px;
     right: 0px;
@@ -31,7 +31,7 @@
 }
 #bar:focus
 {
-    border: 0px solid #202124;
+    border: 0px solid #bded7d;
     background-color: #bded7d;
 }
 .button
