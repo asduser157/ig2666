@@ -37,7 +37,6 @@
 .button
 {
     width: 40px;
-    display: inline-block;
     text-align: center;
     background-color: #202124;
     color: #c0c0c0;
@@ -216,7 +215,7 @@
     top: 1.5px;
 }
 
-.link
+.button
 {
     margin: 18px;
     display:flex;
@@ -225,7 +224,7 @@
     position: relative;
     top: -93px;
 }
-.link:hover
+.button:hover
 {
     text-decoration: underline;
 }
