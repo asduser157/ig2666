@@ -188,10 +188,10 @@
 }
 .voice
 {
-    width: 13.5px;
+    width: 55px;
     position: relative;
     left: 835px;
-    top: 166.5px;
+    top: 165px;
     z-index: 5;
 }
 .voice1
