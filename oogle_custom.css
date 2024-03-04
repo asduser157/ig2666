@@ -38,7 +38,7 @@
     color: darkgreen;
     padding: 10px 0;
     border-radius: 3.5px;
-    border: 2.25px dotted darkgreen;;
+    border: 2.25px dotted darkgreen;
     font-size: 13.55px;
 }
 .button:hover
@@ -247,6 +247,7 @@
     float: right;
     position: relative;
     top: -93px;
+    border: 2.25px dotted darkgreen;
 }
 .buttons:hover
 {
