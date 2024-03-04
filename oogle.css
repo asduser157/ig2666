@@ -217,9 +217,8 @@
 
 .button
 {
-    margin: 18px;
-    display: flex;
-    gap: 17px;
+    margin: 13px;
+    float: left;
     justify-content: left;
     position: relative;
     top: -93px;
