@@ -277,10 +277,10 @@
     text-align: center;
     background-color: #bded7d;
     display: block;
-    color: #ffffff;
+    color: #bded7d;
     padding: 10px 0;
     border-radius: 4.2px;
-    border: 1.2px solid #303134;
+    border: 1.2px solid #bded7d;
     font-size: 13.55px;
 }
 #box:hover
