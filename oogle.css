@@ -50,6 +50,22 @@
     text-decoration: underline;
     cursor: pointer;
 }
+.buttons
+{
+    width: 40px;
+    text-align: center;
+    background-color: #202124;
+    color: #c0c0c0;
+    padding: 10px 0;
+    border-radius: 3.5px;
+    border: 1.2px solid #202124;
+    font-size: 13.55px;
+}
+.buttons:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
 #ever
 {
     width: 40px;
@@ -115,16 +131,17 @@
 }
 .flask
 {
+    float: right;
     width: 37px;
-    margin: 0px;
-    margin-right: 0px;
+    margin-right: 10px;
     margin-left: 7px;
+    margin-top: 5px;
     text-align: center;
     background-color: #202124;
     display: block;
     padding: 4px 0;
     position: relative;
-    top: 2px;
+    top: -80px;
     right: -5px;
     border-radius: 28px;
     border: 0px solid #202124;
@@ -132,22 +149,21 @@
 }
 #specific
 {
+    float:right;
     width: 32px;
-    margin: 0px;
-    margin-right: 0px;
+    margin-right: 10px;
     margin-left: 0px;
+    margin-top: 5px;
     text-align: center;
     background-color: #202124;
     display: block;
     padding: 4px 0;
     position: relative;
-    top: 2px;
+    top: -80px;
     right: -5px;
     border-radius: 28px;
     border: 0px solid #202124;
     font-size: 13.55px;
-    position: relative;
-    top: 3.25px;
 }
 #specific:hover
 {
@@ -224,6 +240,19 @@
     top: -93px;
 }
 .button:hover
+{
+    text-decoration: underline;
+}
+.buttons
+{
+    margin: 13px;
+    margin-top: 15px;
+    margin-right: 9px;
+    float: right;
+    position: relative;
+    top: -93px;
+}
+.buttons:hover
 {
     text-decoration: underline;
 }
