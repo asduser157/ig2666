@@ -218,8 +218,8 @@
 .button
 {
     margin: 18px;
-    display:flex;
-    gap: 17px;
+    float: left;
+    gap: 1px;
     justify-content: left;
     position: relative;
     top: -93px;
