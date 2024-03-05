@@ -150,14 +150,13 @@
     margin-left: 7px;
     margin-top: 5px;
     text-align: center;
-    background-color: #bded7d;
     display: block;
     padding: 4px 0;
     position: relative;
     top: -80px;
     right: -5px;
     border-radius: 28px;
-    border: 0px solid #202124;
+    border: 0px solid darkgreen;
     font-size: 13.55px;
 }
 #specific
