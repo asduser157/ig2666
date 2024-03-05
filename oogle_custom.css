@@ -19,11 +19,12 @@
     background-color: #bded7d;
     border: 1.2px solid #bded7d;
     border-radius: 30px;
-    position: absolute;
+    position: relative;
     left: 0px;
     right: 0px;
-    top: 275px;
+    top: 205px;
     color: darkgreen;
+    font-weight: bold;
 }
 #bar:focus
 {
@@ -202,16 +203,16 @@
 {
     width: 55px;
     position: relative;
-    left: 820px;
-    top: 260px;
+    left: 810px;
+    top: 259px;
     z-index: 5;
 }
 .voice1
 {
     width: 50px;
     position: relative;
-    left: 910px;
-    top: 260px;
+    left: 900px;
+    top: 257.5px;
     z-index: 4;
 }
 #different1
@@ -249,7 +250,7 @@
     float: left;
     justify-content: left;
     position: relative;
-    top: -93px;
+    top: -155px;
 }
 .button:hover
 {
@@ -264,7 +265,7 @@
     float: right;
     position: relative;
     color: darkgreen;
-    top: -93px;
+    top: -155px;
     border: 2.25px dotted darkgreen;
 }
 .buttons:hover
