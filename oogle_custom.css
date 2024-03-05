@@ -30,6 +30,17 @@
     border: 0px solid #bded7d;
     background-color: #bded7d;
 }
+#icecream
+{
+    width: 375px;
+    position: relative;
+    top: 350px;
+    left: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 4px dotted darkgreen;
+    font-weight: bold;
+}
 .button
 {
     width: 70px;
