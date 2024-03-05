@@ -38,7 +38,7 @@
     background-color: #bded7d;
     width: 395px;
     position: relative;
-    top: 350px;
+    top: 430px;
     left: 1px;
     display: block;
     margin: auto;
@@ -299,7 +299,7 @@
     border: 4px dotted darkgreen;
     font-size: 14px;
     position: relative;
-    top: 100px;
+    top: 70px;
 }
 #box:hover
 {
