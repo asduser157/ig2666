@@ -5,9 +5,9 @@ response = ['Yes, definitely', 'It is certain.', 'Affirmative.', 'Reply hazy, tr
 num = random.randint(1,9)
 time.sleep(1)
 print("\nShaking...\n")
-time.sleep(1)
+time.sleep(1.25)
 print("...\n")
 answer = random.choice(response)
-time.sleep(2)
+time.sleep(1)
 print(answer)
 
