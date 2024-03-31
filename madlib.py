@@ -1,5 +1,5 @@
 import random
-nn1 = input("\nNoun: ")
-
-print("There once was a/an %i who loved to %i anything the color %i)
+ani1 = input("\nAnimal: ")
+vb1 = input("\nPresent Tense Verb: ")
+print("There once was a/an %i who loved to %i anything the color %i. One day, the %i decided to %i a/an %i it saw walking near %i )
 
