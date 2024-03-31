@@ -1,8 +1,9 @@
-import random
 ani1 = input("\nAnimal: ")
 vb1 = input("\nPresent-Tense Verb: ")
-col1 = input("\nColor:")
-vb2 = input("\nAnother Present-Tense Verb:")
-ani2 = input
-print("There once was a/an %i who loved to %i anything the color %i. One day, the %i decided to %i a/an %i it saw walking near %i )
-
+col1 = input("\nColor: ")
+vb2 = input("\nAnother Present-Tense Verb: ")
+ani2 = input("\nAnother Animal: ")
+loc1 = input("\nPlace/Location: ")
+adv1 = input("\nAdverb ending in 'ly': ")
+emot1 = input("\nPrimary Emotion: ")
+print("There once was a/an %i who loved to %i anything the color %i. One day, the %i decided to %i a/an %i it saw walking near %i. Before the %i could do that, however, the %i %i ran away, making the %i become very %i. THE END.", ani1, vb1, col1, ani1, vb2, ani2, loc1, ani1, ani2, adv1, ani1, emot1)
