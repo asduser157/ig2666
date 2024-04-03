@@ -1,8 +1,11 @@
 import random
 seat = ["Lauren", "Mason", "Greer", "Covey", "Simon", "Hayden", "Grant", "Dashell", "Lea", "Isaac", "Sariah", "Vicko", "Anna", "Ariah", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"]
 num = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"]
-s1 = random.choice(seat)
-n1 = random.choice(num)
-for print("%s: %s" % (s1, n1))
-seat.remove = s1
-num.remove = n1
+
+for i in range(28):
+    s = random.choice(seat)
+    n = random.choice(num)
+    print("%s: %s" % (s, n))
+    seat.remove = s
+    num.remove = n
+
