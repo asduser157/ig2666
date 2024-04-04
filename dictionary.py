@@ -7,7 +7,7 @@ emoji["Dead"] = "😵"
 print(emoji)
 Anime_Sucks = {"Giyu Tomioka":"🌊 Hashira", "Mitsuri Kanroji":"💗 Hashira", "Kyojuro Rengoku":"🔥 Hashira"}
 print(Anime_Sucks)
-Anime_Sucks.clear("Mitsuri Kanroji")
+Anime_Sucks.remove("Mitsuri Kanroji")
 print(Anime_Sucks)
 Anime_Sucks.clear()
 print(Anime_Sucks)
