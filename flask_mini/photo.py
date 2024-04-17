@@ -5,6 +5,6 @@ app = Flask(__name__)
 def flask():
     return render_template("photo1.html")
 
-@app.route("/greet")
+@app.route("/photo")
 def greet():
     return render_template("photo2.html", name=request.args.get("name", "world"))
