@@ -1,8 +1,13 @@
 body
 {
     background-color: #2b4d5a;
+    margin: 20px;
 }
 h1
+{
+    color: #fcc084;
+}
+a
 {
     color: #fcc084;
 }
