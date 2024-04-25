@@ -8,10 +8,10 @@ print("Hello there, %s!" % (greet))
 #asks user for desired math function
 calc = input("Type '+' for addition, '-' for subtraction, '*' for multiplication, or '/' for division:\n")
 #asks user for first number in equation
-num1 = input("Enter in the first number:\n")
+int num1 = get_int("Enter in the first number:\n")
 #asks user for second number in equation
-num2 = input("Enter in the second number:\n")
+int num2 = get_int("Enter in the second number:\n")
 if (calc == "+"):
-    print("%inum1+num2)
+    print("%i + %i: %i" % (num1, num2,(num1+num2)))
 
 
