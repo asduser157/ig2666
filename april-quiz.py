@@ -43,7 +43,7 @@ while (correct == False):
     if (guess < rand):
         toolow = int(input("Guess higher! Type here:\n"))
     if (guess == rand):
-        print("Correct!")
+        print("Correct! The number was %s." % (rand))
         correct = True
 
 
