@@ -131,6 +131,8 @@ else:
     score = (score + 0)
 # putting score in a percentage
 percent = (score/4)*100
+score = (score + 0)
 # relaying final score
 print("\nYour final score is: %i/4 (%i%)" % (score, percent))
 #END OF PROGRAM
+
