@@ -132,6 +132,5 @@ else:
 # putting score in a percentage
 percent = (score/4)*100
 # relaying final score
-print("\nYour final score is: %i/4 (%i%)" % (score))
-
+print("\nYour final score is: %i/4 (%i%)" % (score, percent))
 #END OF PROGRAM
