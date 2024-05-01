@@ -10,7 +10,6 @@ def typingPrint(text):
         sys.stdout.flush()
         time.sleep(0.05)
 
-
 def typingInput(text):
     for character in text:
         sys.stdout.write(character)
@@ -26,7 +25,7 @@ def clearScreen():
     else:
         os.system("clear")
 
-
+password = typingInput()
 clearScreen()
 typingPrint('DASHELL  HANBERG')
 print('')
@@ -35,11 +34,25 @@ typingPrint('   ~presents~    ')
 time.sleep(3)
 clearScreen()
 
-typingPrint("            A             ")
+typingPrint('      ~Along with~\n     ')
+print('')
+typingPrint('     ISAAC R. GRANDY      ')
+
+time.sleep(3)
+clearScreen()
+
+typingPrint(' 🌙 A Crescent Moon Games 🌙 ')
+print('')
+typingPrint('         Production          ')
+
+time.sleep(3)
+clearScreen()
+
+typingPrint("          With           ")
 print('')
 typingPrint("Symmetrical Space Capybara")
 print('')
-typingPrint("        Production        ")
+typingPrint("       Productions       ")
 
 time.sleep(3)
 clearScreen()
@@ -54,12 +67,13 @@ typingPrint(' |=====================|')
 print('')
 typingPrint('~~~~~~~~~~~~~~~~~~~~~~~~~')
 
-time.sleep(5)
+time.sleep(3.75)
 clearScreen()
 
 name = typingInput('''What is your name?
 ''')
-
+typingPrint('Welcome to Terronis, %s.' %(name))
+time.sleep(3)
 clearScreen()
 
 typingPrint("CHAPTER ONE")
@@ -68,7 +82,7 @@ time.sleep(2)
 typingPrint("It is a peaceful night in Terronis.")
 time.sleep(0.5)
 print('')
-typingPrint("You walk the streets of town enjoying a cup of honeydrink.")
+typingPrint("You walk the streets of town enjoying a cup of honeydrink from the local tavern.")
 time.sleep(0.5)
 print('')
 typingPrint("When you left the tavern, the streets were packed.")
@@ -76,40 +90,41 @@ time.sleep(0.5)
 typingPrint(" By the time you finish your drink, the streets are empty.")
 time.sleep(0.5)
 print('')
-typingPrint("You toss the cup away.")
+typingPrint("You toss your cup away.")
 time.sleep(0.5)
 typingPrint(" Seconds later you hear the cup thud and bounce on the dirt...")
 time.sleep(0.5)
 print('')
 typingPrint("and an explosion shakes the village.")
 time.sleep(0.5)
-typingPrint(" You turn around, wondering what you cup could have hit to have caused such an explosion.")
+typingPrint(" You turn around, wondering what your cup could have hit to have caused such an explosion.")
 time.sleep(0.5)
 print('')
 typingPrint("That's when you see it.")
 time.sleep(0.5)
 typingPrint(" A massive purple dragon, flying above the village.")
 time.sleep(0.5)
-typingPrint(" It opens it spacious maw and a fireball billows forth.")
+typingPrint(" It opens it spacious mouth and a fireball billows forth.")
 time.sleep(0.5)
 print('')
 typingPrint("It explodes upon impact, obliterating three entire houses.")
 time.sleep(0.5)
 typingPrint(" The wind created from the explosion ruffles your hair.")
 dragon_attack = typingInput(''' Do you...
-1) run
+1) run away
 2) stand still in shock
 3) seek shelter in the nearest building
 
 - ''')
 if dragon_attack == '2':
-    typingPrint("As everyone else runs away you stand there, frozen with fear.")
+    typingPrint("As everyone else runs away, you stand there, frozen with fear.")
     time.sleep(0.5)
     typingPrint(" The dragon sees you as an easy target.")
     time.sleep(0.5)
     print('')
-    typingPrint("He dives towards you and you die of fear.")
+    typingPrint("He dives towards you... ")
     time.sleep(0.5)
+    typingPrint("... and disintegrates you with his fireball breath.")
     print('''
 
 ''')
