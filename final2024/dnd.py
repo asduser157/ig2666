@@ -25,6 +25,7 @@ def clearScreen():
     else:
         os.system("clear")
 
+clearScreen()
 password = typingInput("Enter in the passcode to skip the credits.\n")
 
 if password != "Harold":
