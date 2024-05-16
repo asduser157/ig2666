@@ -255,8 +255,10 @@ if password == "Harold":
         typingPrint('Welcome to Terronis, %s.' % (name))
         time.sleep(3)
         typingPrint(
-            ''' Make sure to answer all questions using the answer number, unless it is a typed response''')
+            ''' Make sure to answer all questions using the answer number, unless it is a typed response.\n''')
         time.sleep(3)
+        global dragon_name
+        dragon_name = typingInput("What do you want to name the dragon?\n")
         clearScreen()
         Chapterthree()
     else:
