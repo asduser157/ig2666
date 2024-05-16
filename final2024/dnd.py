@@ -129,13 +129,13 @@ GAME OVER''')
     else:
         typingPrint("Syntax Error 01: Invalid Input")
         return Chapterone()
-
-dragon_name = typingInput("What do you want to name the dragon?")
 def Chaptertwo():
     clearScreen()
     typingPrint("CHAPTER TWO")
     print('')
     typingPrint('''The dragon takes you to its lair. It tells you that it never was named.''')
+    global dragon_name
+    dragon_name = typingInput("What do you want to name the dragon?")
     typingPrint(f'''You name it {dragon_name}. {dragon_name} then tells you she is female. Days pass as you explore the lair and tell Shakespearean poetry to {dragon_name}. You have enough food, even if it is raw... or blackened to a crisp. Most of the time the food that she brings is cow. One day as you are exploring the cave, you come to a place where you have not been before.''')
     arches = typingInput('''There are three stone arches. Which one do you take?
         1) The arch on the right
