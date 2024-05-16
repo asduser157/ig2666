@@ -228,7 +228,7 @@ GAME OVER''')
 
 
 if password == "Harold":
-    chapter_selection = typingInput("Which chapter would you like  go to (number format)? ")
+    chapter_selection = typingInput("Which chapter would you like  go to (number format)?\n")
     if chapter_selection == '1':
         name = typingInput('''What is your name?
 ''')
