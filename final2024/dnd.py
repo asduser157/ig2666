@@ -222,13 +222,13 @@ GAME OVER''')
         elif surprise_attack == '3':
             typingPrint(f'''You stand still facing the Master Worm. It slides towards you. You stand still. It's right in front of you. You make a quick movement. You dive underneath the pile of gold. The worm follows, burrowing inot the gold behind you. You change directory just in time, moving horizantally. You emerge from the side of the pile. Running up to the exposes underbelly of the worm, you stab it. The blade cuts into the belly easily, but gets stuck. The stab wound on the worm begins swelling at an alarming rate. You yank of the sword as hard as you can. Unfortunately, it is stuck. The swelling becomes too much and bursts, covering you in more warm worm guts. The worm screams and flings it head out of the treasure. You stab it again. This time you're able to pull it out. The wound swells and bursts like the other one. The worm begins swinging around in a rage. You step back holding the sword out. The Master Worm's head swings directly into your sword. You are knocked off your feet and let go of the sword. The worm is screaming louder than ever and the cavern is cavern is shaking from the force of it slamming into the walls, ceiling, and floor. The fortune on the floor is shifting so you cannot get a stable footing. The Master Worm's head has a large, quickly swelling lump on it head. The blister begins to get larger and larger, far more large than the blisters that were on its body. That is because the skin on its head is thicker and more flexible than the skin on its body. Pressure began to build up underneath the Master Worm's skin. The pressure would soon force its way out or crush the worm's brain. If the pressure escapes the worm will live. There's nothing you can do about it though. The skin splits and blood flows out. The worm is angry, but it is dazed. It can no longer see well. The Master Worm writhes and slides out of the cavern. Once in the sunlight, the Master Worm freezes. It slowly turns from pale white to a sunburnt red. Blisters formed and moved about on the worm's skin. Then the blisters began popping. Soon, the Master Worm is missing it's skin and is shivering. You take the sword and finish off the worm. The Master Worm is dead. {dragon_name} is now dead. You have your freedom. And so you begin your trek back to the city that you came from.\n''')
             print('')
-            typingPrint('''GAME COMPLETE''')
+            typingPrint('''GAME COMPLETE.\n\n''')
 
 # put everything for the story above this line. ___________________
 
 
 if password == "Harold":
-    chapter_selection = typingInput("Which chapter would you like  go to (number format)?\n")
+    chapter_selection = typingInput("Which chapter would you like to go to (number format)?\n")
     if chapter_selection == '1':
         name = typingInput('''What is your name?
 ''')
