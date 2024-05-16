@@ -60,6 +60,8 @@ def city():
         typingPrint("\nHere's the menu:\n")
         for number, details in menu_items.items():
             print(f"{number})  {details['name']} - Cost: ${details['cost']:.2f}")
+        for number, details in menu_items.items():
+            print(f"{number})  {details['name']} - Cost: ${details['cost']:.2f}")
         user_input = typingInput("\nEnter the menu item numbers to order. If ordering multiple food items, separate each one of the numbers by a comma and a space, then press 'Enter' once you have finished ordering:\n")
         order_numbers = [int(num) for num in user_input.split(", ") if num.strip().isdigit()]
         orders = [menu_items[number] for number in order_numbers if number in menu_items]
