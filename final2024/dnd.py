@@ -264,6 +264,14 @@ if password == "Harold":
         typingPrint("Syntax Error 01: Invalid Input")
 else:
     credits()
+    name = typingInput('''What is your name?
+''')
+    typingPrint("Welcome to Terronis, %s." % (name))
+    time.sleep(3)
+    typingPrint(
+        ''' Make sure to answer all questions using the answer number, unless it is a typed response''')
+    time.sleep(3)
+    clearScreen()
     Chapterone()
 
 # Credits take ~31 seconds to complete
