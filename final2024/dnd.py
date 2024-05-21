@@ -264,7 +264,7 @@ if password == "Harold":
         typingPrint("Syntax Error 01: Invalid Input")
 else:
     credits()
-    name = typingInput('''What is your name?
+    name = typingInput('''\nWhat is your name?
 ''')
     typingPrint("Welcome to Terronis, %s." % (name))
     time.sleep(3)
